@@ -29,8 +29,10 @@ HTML_TEMPLATE = """<!doctype html>
   #map {{ flex: 1; }}
   #sidebar {{ width: 320px; padding: 16px; box-sizing: border-box; overflow-y: auto; border-left: 1px solid #ddd; }}
   h1 {{ font-size: 16px; margin: 0 0 12px; }}
-  .mode-toggle {{ margin-bottom: 16px; }}
+  .mode-toggle {{ margin-bottom: 12px; }}
   .mode-toggle label {{ margin-right: 12px; font-size: 14px; cursor: pointer; }}
+  .year-filter {{ margin-bottom: 16px; font-size: 14px; display: flex; align-items: center; gap: 6px; }}
+  .year-filter select {{ font-size: 14px; }}
   #stats-panel {{ font-size: 14px; }}
   #stats-panel .placeholder {{ color: #888; }}
   #stats-panel .area-name {{ font-size: 18px; font-weight: 600; margin-bottom: 8px; }}
@@ -49,6 +51,12 @@ HTML_TEMPLATE = """<!doctype html>
     <div class="mode-toggle">
       <label><input type="radio" name="mode" value="boroughs" checked> Boroughs</label>
       <label><input type="radio" name="mode" value="opportunity_areas"> Opportunity Areas</label>
+    </div>
+    <div class="year-filter">
+      Applications submitted
+      <select id="year-from"></select>
+      to
+      <select id="year-to"></select>
     </div>
     <div id="stats-panel"><p class="placeholder">Click a borough or Opportunity Area on the map.</p></div>
   </div>
@@ -81,6 +89,27 @@ const selectedStyle = {{ color: "#e6194b", weight: 3, fillOpacity: 0.35 }};
 let currentMode = "boroughs";
 let currentLayer = null;
 let selectedLayer = null;
+let selectedName = null;
+
+function aggregateStats(mode, name, fromYear, toYear) {{
+  const byYear = (AREA_STATS[mode] && AREA_STATS[mode][name]) || {{}};
+  const totals = {{ total: 0, approved: 0, rejected: 0, excluded: 0 }};
+  for (const [year, counts] of Object.entries(byYear)) {{
+    const y = parseInt(year, 10);
+    if (y < fromYear || y > toYear) continue;
+    totals.total += counts.total;
+    totals.approved += counts.approved;
+    totals.rejected += counts.rejected;
+    totals.excluded += counts.excluded;
+  }}
+  const decided = totals.approved + totals.rejected;
+  return {{
+    ...totals,
+    decided,
+    approval_rate_pct: decided ? Math.round((totals.approved / decided) * 1000) / 10 : null,
+    approved_rejected_ratio: totals.rejected ? Math.round((totals.approved / totals.rejected) * 100) / 100 : null,
+  }};
+}}
 
 function coverageWarning(stats) {{
   if (stats.decided > 0 && (stats.approved === 0 || stats.rejected === 0)) {{
@@ -117,17 +146,31 @@ function statsHtml(name, stats) {{
     </table>`;
 }}
 
+function selectedYearRange() {{
+  const from = parseInt(document.getElementById("year-from").value, 10);
+  const to = parseInt(document.getElementById("year-to").value, 10);
+  return [Math.min(from, to), Math.max(from, to)];
+}}
+
+function updatePanel() {{
+  if (selectedName === null) return;
+  const [fromYear, toYear] = selectedYearRange();
+  const stats = aggregateStats(currentMode, selectedName, fromYear, toYear);
+  document.getElementById("stats-panel").innerHTML = statsHtml(selectedName, stats);
+}}
+
 function selectFeature(layer, name) {{
   if (selectedLayer) selectedLayer.setStyle(defaultStyle);
   layer.setStyle(selectedStyle);
   selectedLayer = layer;
-  const stats = AREA_STATS[currentMode][name];
-  document.getElementById("stats-panel").innerHTML = statsHtml(name, stats);
+  selectedName = name;
+  updatePanel();
 }}
 
 function renderLayer(mode) {{
   if (currentLayer) map.removeLayer(currentLayer);
   selectedLayer = null;
+  selectedName = null;
   document.getElementById("stats-panel").innerHTML =
     '<p class="placeholder">Click a borough or Opportunity Area on the map.</p>';
 
@@ -142,6 +185,17 @@ function renderLayer(mode) {{
   }}).addTo(map);
 }}
 
+function populateYearSelects() {{
+  const fromSelect = document.getElementById("year-from");
+  const toSelect = document.getElementById("year-to");
+  for (let y = AREA_STATS.min_year; y <= AREA_STATS.max_year; y++) {{
+    fromSelect.add(new Option(y, y, y === AREA_STATS.min_year, y === AREA_STATS.min_year));
+    toSelect.add(new Option(y, y, y === AREA_STATS.max_year, y === AREA_STATS.max_year));
+  }}
+  fromSelect.addEventListener("change", updatePanel);
+  toSelect.addEventListener("change", updatePanel);
+}}
+
 document.querySelectorAll('input[name="mode"]').forEach((el) => {{
   el.addEventListener("change", (e) => {{
     currentMode = e.target.value;
@@ -149,6 +203,7 @@ document.querySelectorAll('input[name="mode"]').forEach((el) => {{
   }});
 }});
 
+populateYearSelects();
 renderLayer(currentMode);
 </script>
 </body>

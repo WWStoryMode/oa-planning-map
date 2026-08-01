@@ -19,7 +19,8 @@ def load_applications(db_path: str, area_name: str | None = None) -> pd.DataFram
     """
     query = (
         "SELECT json_extract(payload, '$.postcode') AS postcode, "
-        "json_extract(payload, '$.app_state') AS app_state "
+        "json_extract(payload, '$.app_state') AS app_state, "
+        "start_date "
         "FROM applications"
     )
     params: tuple = ()
@@ -35,20 +36,35 @@ def load_applications(db_path: str, area_name: str | None = None) -> pd.DataFram
     return df
 
 
-def summarize(df: pd.DataFrame) -> dict:
-    """Approval summary for a DataFrame with an app_state column."""
+def raw_counts(df: pd.DataFrame) -> dict:
+    """total/approved/rejected/excluded counts for a DataFrame with an app_state column.
+
+    Unlike summarize(), these four numbers are additive - safe to sum across
+    years (or any other grouping) before deriving rate/ratio.
+    """
     total = len(df)
     approved = int(df["app_state"].isin(APPROVED_STATES).sum())
     rejected = int(df["app_state"].isin(REJECTED_STATES).sum())
-    excluded = total - approved - rejected
-    decided = approved + rejected
-
     return {
         "total": total,
         "approved": approved,
         "rejected": rejected,
-        "excluded": excluded,
+        "excluded": total - approved - rejected,
+    }
+
+
+def derive_rates(counts: dict) -> dict:
+    """Add decided/approval_rate_pct/approved_rejected_ratio to a raw_counts() dict."""
+    approved, rejected = counts["approved"], counts["rejected"]
+    decided = approved + rejected
+    return {
+        **counts,
         "decided": decided,
         "approval_rate_pct": round(approved / decided * 100, 1) if decided else None,
         "approved_rejected_ratio": round(approved / rejected, 2) if rejected else None,
     }
+
+
+def summarize(df: pd.DataFrame) -> dict:
+    """Approval summary for a DataFrame with an app_state column."""
+    return derive_rates(raw_counts(df))
