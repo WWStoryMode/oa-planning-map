@@ -1,0 +1,618 @@
+{
+  "boroughs": {
+    "Barking and Dagenham": {
+      "total": 10035,
+      "approved": 7085,
+      "rejected": 2445,
+      "excluded": 505,
+      "decided": 9530,
+      "approval_rate_pct": 74.3,
+      "approved_rejected_ratio": 2.9
+    },
+    "Barnet": {
+      "total": 32743,
+      "approved": 21458,
+      "rejected": 7697,
+      "excluded": 3588,
+      "decided": 29155,
+      "approval_rate_pct": 73.6,
+      "approved_rejected_ratio": 2.79
+    },
+    "Bexley": {
+      "total": 17325,
+      "approved": 12604,
+      "rejected": 2389,
+      "excluded": 2332,
+      "decided": 14993,
+      "approval_rate_pct": 84.1,
+      "approved_rejected_ratio": 5.28
+    },
+    "Brent": {
+      "total": 25779,
+      "approved": 17377,
+      "rejected": 6987,
+      "excluded": 1415,
+      "decided": 24364,
+      "approval_rate_pct": 71.3,
+      "approved_rejected_ratio": 2.49
+    },
+    "Bromley": {
+      "total": 1869,
+      "approved": 1239,
+      "rejected": 341,
+      "excluded": 289,
+      "decided": 1580,
+      "approval_rate_pct": 78.4,
+      "approved_rejected_ratio": 3.63
+    },
+    "Camden": {
+      "total": 50,
+      "approved": 38,
+      "rejected": 2,
+      "excluded": 10,
+      "decided": 40,
+      "approval_rate_pct": 95.0,
+      "approved_rejected_ratio": 19.0
+    },
+    "City of London": {
+      "total": 155,
+      "approved": 121,
+      "rejected": 3,
+      "excluded": 31,
+      "decided": 124,
+      "approval_rate_pct": 97.6,
+      "approved_rejected_ratio": 40.33
+    },
+    "Croydon": {
+      "total": 2063,
+      "approved": 1322,
+      "rejected": 348,
+      "excluded": 393,
+      "decided": 1670,
+      "approval_rate_pct": 79.2,
+      "approved_rejected_ratio": 3.8
+    },
+    "Ealing": {
+      "total": 2693,
+      "approved": 1956,
+      "rejected": 262,
+      "excluded": 475,
+      "decided": 2218,
+      "approval_rate_pct": 88.2,
+      "approved_rejected_ratio": 7.47
+    },
+    "Enfield": {
+      "total": 1585,
+      "approved": 501,
+      "rejected": 118,
+      "excluded": 966,
+      "decided": 619,
+      "approval_rate_pct": 80.9,
+      "approved_rejected_ratio": 4.25
+    },
+    "Greenwich": {
+      "total": 1160,
+      "approved": 692,
+      "rejected": 240,
+      "excluded": 228,
+      "decided": 932,
+      "approval_rate_pct": 74.2,
+      "approved_rejected_ratio": 2.88
+    },
+    "Hackney": {
+      "total": 756,
+      "approved": 446,
+      "rejected": 75,
+      "excluded": 235,
+      "decided": 521,
+      "approval_rate_pct": 85.6,
+      "approved_rejected_ratio": 5.95
+    },
+    "Hammersmith and Fulham": {
+      "total": 884,
+      "approved": 459,
+      "rejected": 25,
+      "excluded": 400,
+      "decided": 484,
+      "approval_rate_pct": 94.8,
+      "approved_rejected_ratio": 18.36
+    },
+    "Haringey": {
+      "total": 1084,
+      "approved": 801,
+      "rejected": 97,
+      "excluded": 186,
+      "decided": 898,
+      "approval_rate_pct": 89.2,
+      "approved_rejected_ratio": 8.26
+    },
+    "Harrow": {
+      "total": 1223,
+      "approved": 525,
+      "rejected": 113,
+      "excluded": 585,
+      "decided": 638,
+      "approval_rate_pct": 82.3,
+      "approved_rejected_ratio": 4.65
+    },
+    "Havering": {
+      "total": 1687,
+      "approved": 1383,
+      "rejected": 0,
+      "excluded": 304,
+      "decided": 1383,
+      "approval_rate_pct": 100.0,
+      "approved_rejected_ratio": null
+    },
+    "Hillingdon": {
+      "total": 802,
+      "approved": 595,
+      "rejected": 64,
+      "excluded": 143,
+      "decided": 659,
+      "approval_rate_pct": 90.3,
+      "approved_rejected_ratio": 9.3
+    },
+    "Hounslow": {
+      "total": 1718,
+      "approved": 1146,
+      "rejected": 209,
+      "excluded": 363,
+      "decided": 1355,
+      "approval_rate_pct": 84.6,
+      "approved_rejected_ratio": 5.48
+    },
+    "Islington": {
+      "total": 6317,
+      "approved": 4291,
+      "rejected": 1349,
+      "excluded": 677,
+      "decided": 5640,
+      "approval_rate_pct": 76.1,
+      "approved_rejected_ratio": 3.18
+    },
+    "Kensington and Chelsea": {
+      "total": 5410,
+      "approved": 4054,
+      "rejected": 461,
+      "excluded": 895,
+      "decided": 4515,
+      "approval_rate_pct": 89.8,
+      "approved_rejected_ratio": 8.79
+    },
+    "Kingston upon Thames": {
+      "total": 25013,
+      "approved": 17817,
+      "rejected": 5191,
+      "excluded": 2005,
+      "decided": 23008,
+      "approval_rate_pct": 77.4,
+      "approved_rejected_ratio": 3.43
+    },
+    "Lambeth": {
+      "total": 19454,
+      "approved": 13822,
+      "rejected": 3969,
+      "excluded": 1663,
+      "decided": 17791,
+      "approval_rate_pct": 77.7,
+      "approved_rejected_ratio": 3.48
+    },
+    "Lewisham": {
+      "total": 13946,
+      "approved": 9960,
+      "rejected": 3095,
+      "excluded": 891,
+      "decided": 13055,
+      "approval_rate_pct": 76.3,
+      "approved_rejected_ratio": 3.22
+    },
+    "Merton": {
+      "total": 24115,
+      "approved": 19303,
+      "rejected": 3102,
+      "excluded": 1710,
+      "decided": 22405,
+      "approval_rate_pct": 86.2,
+      "approved_rejected_ratio": 6.22
+    },
+    "Newham": {
+      "total": 10884,
+      "approved": 7444,
+      "rejected": 2484,
+      "excluded": 956,
+      "decided": 9928,
+      "approval_rate_pct": 75.0,
+      "approved_rejected_ratio": 3.0
+    },
+    "Redbridge": {
+      "total": 24467,
+      "approved": 18057,
+      "rejected": 4970,
+      "excluded": 1440,
+      "decided": 23027,
+      "approval_rate_pct": 78.4,
+      "approved_rejected_ratio": 3.63
+    },
+    "Richmond upon Thames": {
+      "total": 15959,
+      "approved": 12095,
+      "rejected": 2775,
+      "excluded": 1089,
+      "decided": 14870,
+      "approval_rate_pct": 81.3,
+      "approved_rejected_ratio": 4.36
+    },
+    "Southwark": {
+      "total": 13658,
+      "approved": 10688,
+      "rejected": 1003,
+      "excluded": 1967,
+      "decided": 11691,
+      "approval_rate_pct": 91.4,
+      "approved_rejected_ratio": 10.66
+    },
+    "Sutton": {
+      "total": 14846,
+      "approved": 10266,
+      "rejected": 2831,
+      "excluded": 1749,
+      "decided": 13097,
+      "approval_rate_pct": 78.4,
+      "approved_rejected_ratio": 3.63
+    },
+    "Tower Hamlets": {
+      "total": 4836,
+      "approved": 3336,
+      "rejected": 1090,
+      "excluded": 410,
+      "decided": 4426,
+      "approval_rate_pct": 75.4,
+      "approved_rejected_ratio": 3.06
+    },
+    "Waltham Forest": {
+      "total": 17687,
+      "approved": 11831,
+      "rejected": 3817,
+      "excluded": 2039,
+      "decided": 15648,
+      "approval_rate_pct": 75.6,
+      "approved_rejected_ratio": 3.1
+    },
+    "Wandsworth": {
+      "total": 23545,
+      "approved": 19044,
+      "rejected": 2015,
+      "excluded": 2486,
+      "decided": 21059,
+      "approval_rate_pct": 90.4,
+      "approved_rejected_ratio": 9.45
+    },
+    "Westminster": {
+      "total": 255,
+      "approved": 132,
+      "rejected": 24,
+      "excluded": 99,
+      "decided": 156,
+      "approval_rate_pct": 84.6,
+      "approved_rejected_ratio": 5.5
+    }
+  },
+  "opportunity_areas": {
+    "Brent Cross/Cricklewood": {
+      "total": 1686,
+      "approved": 1064,
+      "rejected": 420,
+      "excluded": 202,
+      "decided": 1484,
+      "approval_rate_pct": 71.7,
+      "approved_rejected_ratio": 2.53
+    },
+    "Canada Water": {
+      "total": 751,
+      "approved": 572,
+      "rejected": 61,
+      "excluded": 118,
+      "decided": 633,
+      "approval_rate_pct": 90.4,
+      "approved_rejected_ratio": 9.38
+    },
+    "Charlton Riverside": {
+      "total": 3,
+      "approved": 3,
+      "rejected": 0,
+      "excluded": 0,
+      "decided": 3,
+      "approval_rate_pct": 100.0,
+      "approved_rejected_ratio": null
+    },
+    "City Fringe/Tech City": {
+      "total": 1900,
+      "approved": 1279,
+      "rejected": 393,
+      "excluded": 228,
+      "decided": 1672,
+      "approval_rate_pct": 76.5,
+      "approved_rejected_ratio": 3.25
+    },
+    "Colindale/Burnt Oak": {
+      "total": 629,
+      "approved": 392,
+      "rejected": 169,
+      "excluded": 68,
+      "decided": 561,
+      "approval_rate_pct": 69.9,
+      "approved_rejected_ratio": 2.32
+    },
+    "Croydon": {
+      "total": 98,
+      "approved": 59,
+      "rejected": 15,
+      "excluded": 24,
+      "decided": 74,
+      "approval_rate_pct": 79.7,
+      "approved_rejected_ratio": 3.93
+    },
+    "Deptford Creek/Greenwich Riverside": {
+      "total": 296,
+      "approved": 217,
+      "rejected": 46,
+      "excluded": 33,
+      "decided": 263,
+      "approval_rate_pct": 82.5,
+      "approved_rejected_ratio": 4.72
+    },
+    "Earl's Court/West Kensington": {
+      "total": 10,
+      "approved": 6,
+      "rejected": 0,
+      "excluded": 4,
+      "decided": 6,
+      "approval_rate_pct": 100.0,
+      "approved_rejected_ratio": null
+    },
+    "Elephant and Castle": {
+      "total": 606,
+      "approved": 449,
+      "rejected": 49,
+      "excluded": 108,
+      "decided": 498,
+      "approval_rate_pct": 90.2,
+      "approved_rejected_ratio": 9.16
+    },
+    "Greenwich Peninsula": {
+      "total": 13,
+      "approved": 11,
+      "rejected": 0,
+      "excluded": 2,
+      "decided": 11,
+      "approval_rate_pct": 100.0,
+      "approved_rejected_ratio": null
+    },
+    "Harrow and Wealdstone": {
+      "total": 42,
+      "approved": 9,
+      "rejected": 4,
+      "excluded": 29,
+      "decided": 13,
+      "approval_rate_pct": 69.2,
+      "approved_rejected_ratio": 2.25
+    },
+    "Ilford": {
+      "total": 224,
+      "approved": 142,
+      "rejected": 52,
+      "excluded": 30,
+      "decided": 194,
+      "approval_rate_pct": 73.2,
+      "approved_rejected_ratio": 2.73
+    },
+    "Isle of Dogs": {
+      "total": 983,
+      "approved": 702,
+      "rejected": 216,
+      "excluded": 65,
+      "decided": 918,
+      "approval_rate_pct": 76.5,
+      "approved_rejected_ratio": 3.25
+    },
+    "Kensal Canalside": {
+      "total": 2,
+      "approved": 0,
+      "rejected": 2,
+      "excluded": 0,
+      "decided": 2,
+      "approval_rate_pct": 0.0,
+      "approved_rejected_ratio": 0.0
+    },
+    "King's Cross": {
+      "total": 4,
+      "approved": 3,
+      "rejected": 0,
+      "excluded": 1,
+      "decided": 3,
+      "approval_rate_pct": 100.0,
+      "approved_rejected_ratio": null
+    },
+    "Lee Valley": {
+      "total": 3040,
+      "approved": 1845,
+      "rejected": 540,
+      "excluded": 655,
+      "decided": 2385,
+      "approval_rate_pct": 77.4,
+      "approved_rejected_ratio": 3.42
+    },
+    "London Bridge/Bankside": {
+      "total": 1230,
+      "approved": 933,
+      "rejected": 92,
+      "excluded": 205,
+      "decided": 1025,
+      "approval_rate_pct": 91.0,
+      "approved_rejected_ratio": 10.14
+    },
+    "London Riverside": {
+      "total": 2637,
+      "approved": 1848,
+      "rejected": 634,
+      "excluded": 155,
+      "decided": 2482,
+      "approval_rate_pct": 74.5,
+      "approved_rejected_ratio": 2.91
+    },
+    "New Cross/Lewisham/Catford": {
+      "total": 2424,
+      "approved": 1685,
+      "rejected": 552,
+      "excluded": 187,
+      "decided": 2237,
+      "approval_rate_pct": 75.3,
+      "approved_rejected_ratio": 3.05
+    },
+    "Old Kent Road": {
+      "total": 1327,
+      "approved": 971,
+      "rejected": 97,
+      "excluded": 259,
+      "decided": 1068,
+      "approval_rate_pct": 90.9,
+      "approved_rejected_ratio": 10.01
+    },
+    "Old Oak/Park Royal": {
+      "total": 825,
+      "approved": 708,
+      "rejected": 28,
+      "excluded": 89,
+      "decided": 736,
+      "approval_rate_pct": 96.2,
+      "approved_rejected_ratio": 25.29
+    },
+    "Olympic Legacy": {
+      "total": 4872,
+      "approved": 3286,
+      "rejected": 1070,
+      "excluded": 516,
+      "decided": 4356,
+      "approval_rate_pct": 75.4,
+      "approved_rejected_ratio": 3.07
+    },
+    "Paddington": {
+      "total": 1,
+      "approved": 1,
+      "rejected": 0,
+      "excluded": 0,
+      "decided": 1,
+      "approval_rate_pct": 100.0,
+      "approved_rejected_ratio": null
+    },
+    "Royal Docks and Beckton Riverside": {
+      "total": 344,
+      "approved": 224,
+      "rejected": 74,
+      "excluded": 46,
+      "decided": 298,
+      "approval_rate_pct": 75.2,
+      "approved_rejected_ratio": 3.03
+    },
+    "Southall": {
+      "total": 255,
+      "approved": 162,
+      "rejected": 34,
+      "excluded": 59,
+      "decided": 196,
+      "approval_rate_pct": 82.7,
+      "approved_rejected_ratio": 4.76
+    },
+    "Thamesmead and Abbey Wood": {
+      "total": 329,
+      "approved": 192,
+      "rejected": 64,
+      "excluded": 73,
+      "decided": 256,
+      "approval_rate_pct": 75.0,
+      "approved_rejected_ratio": 3.0
+    },
+    "Vauxhall Nine Elms Battersea": {
+      "total": 1259,
+      "approved": 1029,
+      "rejected": 88,
+      "excluded": 142,
+      "decided": 1117,
+      "approval_rate_pct": 92.1,
+      "approved_rejected_ratio": 11.69
+    },
+    "Victoria": {
+      "total": 1,
+      "approved": 1,
+      "rejected": 0,
+      "excluded": 0,
+      "decided": 1,
+      "approval_rate_pct": 100.0,
+      "approved_rejected_ratio": null
+    },
+    "Waterloo": {
+      "total": 379,
+      "approved": 288,
+      "rejected": 49,
+      "excluded": 42,
+      "decided": 337,
+      "approval_rate_pct": 85.5,
+      "approved_rejected_ratio": 5.88
+    },
+    "Wembley": {
+      "total": 528,
+      "approved": 370,
+      "rejected": 110,
+      "excluded": 48,
+      "decided": 480,
+      "approval_rate_pct": 77.1,
+      "approved_rejected_ratio": 3.36
+    },
+    "White City": {
+      "total": 16,
+      "approved": 7,
+      "rejected": 1,
+      "excluded": 8,
+      "decided": 8,
+      "approval_rate_pct": 87.5,
+      "approved_rejected_ratio": 7.0
+    },
+    "Wimbledon/Colliers Wood/South Wimbledon": {
+      "total": 889,
+      "approved": 731,
+      "rejected": 68,
+      "excluded": 90,
+      "decided": 799,
+      "approval_rate_pct": 91.5,
+      "approved_rejected_ratio": 10.75
+    },
+    "Woolwich": {
+      "total": 9,
+      "approved": 5,
+      "rejected": 1,
+      "excluded": 3,
+      "decided": 6,
+      "approval_rate_pct": 83.3,
+      "approved_rejected_ratio": 5.0
+    },
+    "Euston": {
+      "total": 0,
+      "approved": 0,
+      "rejected": 0,
+      "excluded": 0,
+      "decided": 0,
+      "approval_rate_pct": null,
+      "approved_rejected_ratio": null
+    },
+    "Tottenham Court Road": {
+      "total": 0,
+      "approved": 0,
+      "rejected": 0,
+      "excluded": 0,
+      "decided": 0,
+      "approval_rate_pct": null,
+      "approved_rejected_ratio": null
+    }
+  }
+}

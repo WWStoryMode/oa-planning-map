@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# macOS
+.DS_Store
+
+# Raw downloaded data (ONSPD, sqlite planning-application DBs) - never commit
+data/raw/
+*.sqlite
+*.sqlite3
+
+# Large generated lookups - regenerate with scripts/build_area_lookups.py
+data/postcode_borough_lookup.csv
+data/postcode_oa_lookup.csv
+
+# Scratch outputs from ad hoc exploration (regenerate via scripts/)
+oa_approval_detail.csv
+tower_hamlets_red_oa_postcodes.csv
+tower_hamlets_city_fringe_postcodes.csv
+city_fringe_oa_map.png
