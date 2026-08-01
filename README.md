@@ -10,6 +10,10 @@ this to applications submitted between 2016 and 2026.
 HTML file, no server required. All boundary data and approval statistics are
 precomputed and embedded in the page.
 
+Built for **House London #0 | Data Hackathon** (Newspeak House, 1 August
+2026) by Christine, Sharuga, and William —
+**[open the presentation deck](presentation/opportunity-by-the-numbers.html)**.
+
 ## How it works
 
 This is a precompute-then-render pipeline, not a live app — there is no
