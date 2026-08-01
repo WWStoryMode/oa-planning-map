@@ -113,7 +113,7 @@ function in `scripts/build_site.py`.
 ![Tower Hamlets approved:rejected ratio by year, Opportunity Area vs. rest of borough, annotated with PM tenure](analysis/tower_hamlets_pm_opportunity_ratio.png)
 
 **Sharuga** put together an initial analysis asking whether Tower Hamlets'
-approval pattern tracks the Prime Minister/government of the day — her
+approval pattern tracks the Prime Minister/government over the years — her
 original write-up, data, and chart are archived at
 [`analysis/contributed/sharuga-pm-opportunity-summary/`](analysis/contributed/sharuga-pm-opportunity-summary/).
 Her headline finding: no distinct pattern by government, but a clear overall
