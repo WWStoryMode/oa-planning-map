@@ -36,6 +36,8 @@ scripts/build_site.py           ── renders site/london_planning_map.html,
   - `arcgis.py` — `fetch_adopted_oas()`, `fetch_borough_boundaries()`
   - `postcodes.py` — ONSPD loading, postcode normalization
   - `applications.py` — sqlite query + approved/rejected/excluded classification
+  - `pm_terms.py` — UK Prime Minister tenure date ranges + lookup, used by
+    `scripts/build_pm_stats.py`
 - `scripts/` — pipeline entry points (see above) plus a few Tower Hamlets-specific
   examples (`collect_oa_postcodes.py`, `oa_approval_rate.py`, `plot_city_fringe_map.py`)
   that predate the London-wide pipeline and are kept as smaller, single-area
@@ -106,6 +108,35 @@ rejected/approved applications recorded" note when one side of the
 approved/rejected split is exactly zero) — see the `coverageWarning()`
 function in `scripts/build_site.py`.
 
+## Prime Minister / Opportunity Area analysis
+
+![Tower Hamlets approved:rejected ratio by year, Opportunity Area vs. rest of borough, annotated with PM tenure](analysis/tower_hamlets_pm_opportunity_ratio.png)
+
+**Sharuga** put together an initial analysis asking whether Tower Hamlets'
+approval pattern tracks the Prime Minister/government of the day — her
+original write-up, data, and chart are archived at
+[`analysis/contributed/sharuga-pm-opportunity-summary/`](analysis/contributed/sharuga-pm-opportunity-summary/).
+Her headline finding: no distinct pattern by government, but a clear overall
+lean toward approval (~3.6:1 permitted:rejected), slightly higher inside
+Opportunity Areas than outside.
+
+`scripts/build_pm_stats.py` reproduces the same question on this repo's full
+dataset (all application types, not just her narrower "additional buildings/
+renovations" subset — see her README for why the totals differ) — same
+conclusion: no consistent pattern tied to any one government, an approval
+lean across the whole period (Opportunity Area 3.18:1, rest of borough
+2.83:1 overall for 2016–2026), and a fair amount of year-to-year noise
+(the 2022 Opportunity Area spike is real in the data, not a chart artifact —
+see [`data/tower_hamlets_pm_opportunity_summary.csv`](data/tower_hamlets_pm_opportunity_summary.csv)
+for the row-level counts behind it). Regenerate both the CSV and the chart
+with:
+
+```
+.venv/bin/python3 scripts/build_pm_stats.py \
+    --nspl data/raw/ONSPD_FEB_2026/Data/ONSPD_FEB_2026_UK.csv \
+    --db ~/Downloads/housing_planning.sqlite
+```
+
 ## Data sources & licensing
 
 - Postcode geography: ONS Postcode Directory (ONSPD), Office for National
@@ -117,9 +148,9 @@ function in `scripts/build_site.py`.
   London" (`London_Borough_Excluding_MHW`), Open Government Licence.
 - Planning applications: a local sqlite export derived from
   [PlanIt](https://www.planit.org.uk/) scraped data. **Not included in this
-  repo** — only the aggregated per-area counts computed from it
-  (`data/area_stats.json`) are committed, never the underlying
-  application-level records.
+  repo** — only aggregated per-area counts computed from it
+  (`data/area_stats.json`, `data/tower_hamlets_pm_opportunity_summary.csv`)
+  are committed, never the underlying application-level records.
 
 ## License
 
