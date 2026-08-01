@@ -3,7 +3,8 @@
 An interactive map of every London borough and adopted ("red status")
 [Opportunity Area](https://apps.london.gov.uk/opportunity-areas/) showing its
 planning-application approval rate: approved (Permitted + Conditions) vs.
-rejected, for decided applications.
+rejected, for decided applications. A year-range filter lets you restrict
+this to applications submitted between 2016 and 2026.
 
 **[Open the map](site/london_planning_map.html)** — a single self-contained
 HTML file, no server required. All boundary data and approval statistics are
@@ -22,6 +23,7 @@ scripts/build_area_lookups.py   ── postcode -> borough / postcode -> Opportu
 scripts/build_stats.py          ── one batch query against a local planning-
                                     applications sqlite export, joined against
                                     the lookups above, aggregated per area
+                                    AND per submission year (2016-2026)
                                               │
 scripts/build_site.py           ── renders site/london_planning_map.html,
                                     embedding the boundaries + stats inline
@@ -65,6 +67,18 @@ python3 -m venv .venv
 Re-run `build_stats.py` + `build_site.py` any time the underlying sqlite
 export is refreshed; re-run `build_area_lookups.py` too if the ONSPD data or
 the Opportunity Area boundaries change.
+
+## Year filter
+
+The sidebar's "Applications submitted [from] to [to]" control filters by
+`start_date` (application submission year), not `decided_date`. `start_date`
+has zero nulls and cleanly spans 2016–2026 across the whole dataset (2026 is
+a partial year); `decided_date` has ~7.7% nulls (undecided/withdrawn
+applications never got one) plus a handful of pre-2016 outliers, which would
+otherwise silently drop those rows from every range. `build_stats.py`
+precomputes raw counts per area *and year*; the browser sums whatever range
+is selected and derives the rate/ratio client-side (`aggregateStats()` in
+`scripts/build_site.py`) — still no backend, no live DB access.
 
 ## Known limitation: uneven data coverage by borough
 

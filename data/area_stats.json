@@ -1,618 +1,3724 @@
 {
+  "min_year": 2016,
+  "max_year": 2026,
   "boroughs": {
-    "Barking and Dagenham": {
-      "total": 10035,
-      "approved": 7085,
-      "rejected": 2445,
-      "excluded": 505,
-      "decided": 9530,
-      "approval_rate_pct": 74.3,
-      "approved_rejected_ratio": 2.9
-    },
-    "Barnet": {
-      "total": 32743,
-      "approved": 21458,
-      "rejected": 7697,
-      "excluded": 3588,
-      "decided": 29155,
-      "approval_rate_pct": 73.6,
-      "approved_rejected_ratio": 2.79
-    },
-    "Bexley": {
-      "total": 17325,
-      "approved": 12604,
-      "rejected": 2389,
-      "excluded": 2332,
-      "decided": 14993,
-      "approval_rate_pct": 84.1,
-      "approved_rejected_ratio": 5.28
-    },
-    "Brent": {
-      "total": 25779,
-      "approved": 17377,
-      "rejected": 6987,
-      "excluded": 1415,
-      "decided": 24364,
-      "approval_rate_pct": 71.3,
-      "approved_rejected_ratio": 2.49
-    },
     "Bromley": {
-      "total": 1869,
-      "approved": 1239,
-      "rejected": 341,
-      "excluded": 289,
-      "decided": 1580,
-      "approval_rate_pct": 78.4,
-      "approved_rejected_ratio": 3.63
-    },
-    "Camden": {
-      "total": 50,
-      "approved": 38,
-      "rejected": 2,
-      "excluded": 10,
-      "decided": 40,
-      "approval_rate_pct": 95.0,
-      "approved_rejected_ratio": 19.0
-    },
-    "City of London": {
-      "total": 155,
-      "approved": 121,
-      "rejected": 3,
-      "excluded": 31,
-      "decided": 124,
-      "approval_rate_pct": 97.6,
-      "approved_rejected_ratio": 40.33
-    },
-    "Croydon": {
-      "total": 2063,
-      "approved": 1322,
-      "rejected": 348,
-      "excluded": 393,
-      "decided": 1670,
-      "approval_rate_pct": 79.2,
-      "approved_rejected_ratio": 3.8
-    },
-    "Ealing": {
-      "total": 2693,
-      "approved": 1956,
-      "rejected": 262,
-      "excluded": 475,
-      "decided": 2218,
-      "approval_rate_pct": 88.2,
-      "approved_rejected_ratio": 7.47
-    },
-    "Enfield": {
-      "total": 1585,
-      "approved": 501,
-      "rejected": 118,
-      "excluded": 966,
-      "decided": 619,
-      "approval_rate_pct": 80.9,
-      "approved_rejected_ratio": 4.25
-    },
-    "Greenwich": {
-      "total": 1160,
-      "approved": 692,
-      "rejected": 240,
-      "excluded": 228,
-      "decided": 932,
-      "approval_rate_pct": 74.2,
-      "approved_rejected_ratio": 2.88
-    },
-    "Hackney": {
-      "total": 756,
-      "approved": 446,
-      "rejected": 75,
-      "excluded": 235,
-      "decided": 521,
-      "approval_rate_pct": 85.6,
-      "approved_rejected_ratio": 5.95
-    },
-    "Hammersmith and Fulham": {
-      "total": 884,
-      "approved": 459,
-      "rejected": 25,
-      "excluded": 400,
-      "decided": 484,
-      "approval_rate_pct": 94.8,
-      "approved_rejected_ratio": 18.36
-    },
-    "Haringey": {
-      "total": 1084,
-      "approved": 801,
-      "rejected": 97,
-      "excluded": 186,
-      "decided": 898,
-      "approval_rate_pct": 89.2,
-      "approved_rejected_ratio": 8.26
-    },
-    "Harrow": {
-      "total": 1223,
-      "approved": 525,
-      "rejected": 113,
-      "excluded": 585,
-      "decided": 638,
-      "approval_rate_pct": 82.3,
-      "approved_rejected_ratio": 4.65
-    },
-    "Havering": {
-      "total": 1687,
-      "approved": 1383,
-      "rejected": 0,
-      "excluded": 304,
-      "decided": 1383,
-      "approval_rate_pct": 100.0,
-      "approved_rejected_ratio": null
-    },
-    "Hillingdon": {
-      "total": 802,
-      "approved": 595,
-      "rejected": 64,
-      "excluded": 143,
-      "decided": 659,
-      "approval_rate_pct": 90.3,
-      "approved_rejected_ratio": 9.3
-    },
-    "Hounslow": {
-      "total": 1718,
-      "approved": 1146,
-      "rejected": 209,
-      "excluded": 363,
-      "decided": 1355,
-      "approval_rate_pct": 84.6,
-      "approved_rejected_ratio": 5.48
-    },
-    "Islington": {
-      "total": 6317,
-      "approved": 4291,
-      "rejected": 1349,
-      "excluded": 677,
-      "decided": 5640,
-      "approval_rate_pct": 76.1,
-      "approved_rejected_ratio": 3.18
-    },
-    "Kensington and Chelsea": {
-      "total": 5410,
-      "approved": 4054,
-      "rejected": 461,
-      "excluded": 895,
-      "decided": 4515,
-      "approval_rate_pct": 89.8,
-      "approved_rejected_ratio": 8.79
-    },
-    "Kingston upon Thames": {
-      "total": 25013,
-      "approved": 17817,
-      "rejected": 5191,
-      "excluded": 2005,
-      "decided": 23008,
-      "approval_rate_pct": 77.4,
-      "approved_rejected_ratio": 3.43
-    },
-    "Lambeth": {
-      "total": 19454,
-      "approved": 13822,
-      "rejected": 3969,
-      "excluded": 1663,
-      "decided": 17791,
-      "approval_rate_pct": 77.7,
-      "approved_rejected_ratio": 3.48
+      "2016": {
+        "total": 1,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2022": {
+        "total": 7,
+        "approved": 5,
+        "rejected": 2,
+        "excluded": 0
+      },
+      "2024": {
+        "total": 5,
+        "approved": 5,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2025": {
+        "total": 1649,
+        "approved": 1221,
+        "rejected": 338,
+        "excluded": 90
+      },
+      "2026": {
+        "total": 207,
+        "approved": 7,
+        "rejected": 1,
+        "excluded": 199
+      }
     },
     "Lewisham": {
-      "total": 13946,
-      "approved": 9960,
-      "rejected": 3095,
-      "excluded": 891,
-      "decided": 13055,
-      "approval_rate_pct": 76.3,
-      "approved_rejected_ratio": 3.22
+      "2016": {
+        "total": 1567,
+        "approved": 1091,
+        "rejected": 346,
+        "excluded": 130
+      },
+      "2017": {
+        "total": 1930,
+        "approved": 1364,
+        "rejected": 446,
+        "excluded": 120
+      },
+      "2018": {
+        "total": 1784,
+        "approved": 1276,
+        "rejected": 424,
+        "excluded": 84
+      },
+      "2019": {
+        "total": 1461,
+        "approved": 1106,
+        "rejected": 287,
+        "excluded": 68
+      },
+      "2020": {
+        "total": 1600,
+        "approved": 1149,
+        "rejected": 371,
+        "excluded": 80
+      },
+      "2021": {
+        "total": 1818,
+        "approved": 1326,
+        "rejected": 407,
+        "excluded": 85
+      },
+      "2022": {
+        "total": 1265,
+        "approved": 907,
+        "rejected": 298,
+        "excluded": 60
+      },
+      "2023": {
+        "total": 940,
+        "approved": 629,
+        "rejected": 223,
+        "excluded": 88
+      },
+      "2024": {
+        "total": 724,
+        "approved": 539,
+        "rejected": 149,
+        "excluded": 36
+      },
+      "2025": {
+        "total": 756,
+        "approved": 559,
+        "rejected": 142,
+        "excluded": 55
+      },
+      "2026": {
+        "total": 101,
+        "approved": 14,
+        "rejected": 2,
+        "excluded": 85
+      }
     },
-    "Merton": {
-      "total": 24115,
-      "approved": 19303,
-      "rejected": 3102,
-      "excluded": 1710,
-      "decided": 22405,
-      "approval_rate_pct": 86.2,
-      "approved_rejected_ratio": 6.22
+    "Croydon": {
+      "2016": {
+        "total": 2,
+        "approved": 2,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2017": {
+        "total": 5,
+        "approved": 4,
+        "rejected": 1,
+        "excluded": 0
+      },
+      "2018": {
+        "total": 4,
+        "approved": 4,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2019": {
+        "total": 14,
+        "approved": 10,
+        "rejected": 3,
+        "excluded": 1
+      },
+      "2020": {
+        "total": 13,
+        "approved": 11,
+        "rejected": 1,
+        "excluded": 1
+      },
+      "2021": {
+        "total": 8,
+        "approved": 7,
+        "rejected": 0,
+        "excluded": 1
+      },
+      "2022": {
+        "total": 15,
+        "approved": 10,
+        "rejected": 3,
+        "excluded": 2
+      },
+      "2023": {
+        "total": 4,
+        "approved": 4,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2024": {
+        "total": 2,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 1
+      },
+      "2025": {
+        "total": 1797,
+        "approved": 1244,
+        "rejected": 337,
+        "excluded": 216
+      },
+      "2026": {
+        "total": 199,
+        "approved": 25,
+        "rejected": 3,
+        "excluded": 171
+      }
     },
-    "Newham": {
-      "total": 10884,
-      "approved": 7444,
-      "rejected": 2484,
-      "excluded": 956,
-      "decided": 9928,
-      "approval_rate_pct": 75.0,
-      "approved_rejected_ratio": 3.0
+    "Greenwich": {
+      "2016": {
+        "total": 7,
+        "approved": 6,
+        "rejected": 0,
+        "excluded": 1
+      },
+      "2017": {
+        "total": 4,
+        "approved": 3,
+        "rejected": 1,
+        "excluded": 0
+      },
+      "2018": {
+        "total": 1,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2019": {
+        "total": 4,
+        "approved": 4,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2020": {
+        "total": 6,
+        "approved": 5,
+        "rejected": 0,
+        "excluded": 1
+      },
+      "2021": {
+        "total": 15,
+        "approved": 15,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2022": {
+        "total": 9,
+        "approved": 9,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2023": {
+        "total": 4,
+        "approved": 4,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2024": {
+        "total": 5,
+        "approved": 5,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2025": {
+        "total": 986,
+        "approved": 638,
+        "rejected": 239,
+        "excluded": 109
+      },
+      "2026": {
+        "total": 119,
+        "approved": 2,
+        "rejected": 0,
+        "excluded": 117
+      }
     },
-    "Redbridge": {
-      "total": 24467,
-      "approved": 18057,
-      "rejected": 4970,
-      "excluded": 1440,
-      "decided": 23027,
-      "approval_rate_pct": 78.4,
-      "approved_rejected_ratio": 3.63
-    },
-    "Richmond upon Thames": {
-      "total": 15959,
-      "approved": 12095,
-      "rejected": 2775,
-      "excluded": 1089,
-      "decided": 14870,
-      "approval_rate_pct": 81.3,
-      "approved_rejected_ratio": 4.36
-    },
-    "Southwark": {
-      "total": 13658,
-      "approved": 10688,
-      "rejected": 1003,
-      "excluded": 1967,
-      "decided": 11691,
-      "approval_rate_pct": 91.4,
-      "approved_rejected_ratio": 10.66
+    "Havering": {
+      "2016": {
+        "total": 1,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2018": {
+        "total": 2,
+        "approved": 2,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2020": {
+        "total": 2,
+        "approved": 2,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2021": {
+        "total": 2,
+        "approved": 2,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2024": {
+        "total": 2,
+        "approved": 2,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2025": {
+        "total": 1472,
+        "approved": 1354,
+        "rejected": 0,
+        "excluded": 118
+      },
+      "2026": {
+        "total": 206,
+        "approved": 20,
+        "rejected": 0,
+        "excluded": 186
+      }
     },
     "Sutton": {
-      "total": 14846,
-      "approved": 10266,
-      "rejected": 2831,
-      "excluded": 1749,
-      "decided": 13097,
-      "approval_rate_pct": 78.4,
-      "approved_rejected_ratio": 3.63
+      "2016": {
+        "total": 1343,
+        "approved": 1035,
+        "rejected": 231,
+        "excluded": 77
+      },
+      "2017": {
+        "total": 1628,
+        "approved": 1170,
+        "rejected": 311,
+        "excluded": 147
+      },
+      "2018": {
+        "total": 1577,
+        "approved": 1214,
+        "rejected": 298,
+        "excluded": 65
+      },
+      "2019": {
+        "total": 1483,
+        "approved": 1118,
+        "rejected": 294,
+        "excluded": 71
+      },
+      "2020": {
+        "total": 1556,
+        "approved": 1114,
+        "rejected": 314,
+        "excluded": 128
+      },
+      "2021": {
+        "total": 1897,
+        "approved": 1334,
+        "rejected": 439,
+        "excluded": 124
+      },
+      "2022": {
+        "total": 1613,
+        "approved": 1110,
+        "rejected": 405,
+        "excluded": 98
+      },
+      "2023": {
+        "total": 1353,
+        "approved": 898,
+        "rejected": 281,
+        "excluded": 174
+      },
+      "2024": {
+        "total": 1162,
+        "approved": 720,
+        "rejected": 161,
+        "excluded": 281
+      },
+      "2025": {
+        "total": 1104,
+        "approved": 547,
+        "rejected": 96,
+        "excluded": 461
+      },
+      "2026": {
+        "total": 130,
+        "approved": 6,
+        "rejected": 1,
+        "excluded": 123
+      }
+    },
+    "Merton": {
+      "2016": {
+        "total": 2541,
+        "approved": 2025,
+        "rejected": 374,
+        "excluded": 142
+      },
+      "2017": {
+        "total": 2997,
+        "approved": 2436,
+        "rejected": 354,
+        "excluded": 207
+      },
+      "2018": {
+        "total": 2693,
+        "approved": 2148,
+        "rejected": 394,
+        "excluded": 151
+      },
+      "2019": {
+        "total": 2516,
+        "approved": 2071,
+        "rejected": 317,
+        "excluded": 128
+      },
+      "2020": {
+        "total": 2322,
+        "approved": 1922,
+        "rejected": 265,
+        "excluded": 135
+      },
+      "2021": {
+        "total": 2598,
+        "approved": 2173,
+        "rejected": 283,
+        "excluded": 142
+      },
+      "2022": {
+        "total": 2193,
+        "approved": 1815,
+        "rejected": 242,
+        "excluded": 136
+      },
+      "2023": {
+        "total": 2032,
+        "approved": 1523,
+        "rejected": 301,
+        "excluded": 208
+      },
+      "2024": {
+        "total": 2144,
+        "approved": 1670,
+        "rejected": 339,
+        "excluded": 135
+      },
+      "2025": {
+        "total": 2051,
+        "approved": 1517,
+        "rejected": 233,
+        "excluded": 301
+      },
+      "2026": {
+        "total": 28,
+        "approved": 3,
+        "rejected": 0,
+        "excluded": 25
+      }
+    },
+    "Lambeth": {
+      "2016": {
+        "total": 2347,
+        "approved": 1600,
+        "rejected": 590,
+        "excluded": 157
+      },
+      "2017": {
+        "total": 2447,
+        "approved": 1621,
+        "rejected": 665,
+        "excluded": 161
+      },
+      "2018": {
+        "total": 2172,
+        "approved": 1530,
+        "rejected": 509,
+        "excluded": 133
+      },
+      "2019": {
+        "total": 1945,
+        "approved": 1396,
+        "rejected": 390,
+        "excluded": 159
+      },
+      "2020": {
+        "total": 1886,
+        "approved": 1470,
+        "rejected": 265,
+        "excluded": 151
+      },
+      "2021": {
+        "total": 2060,
+        "approved": 1604,
+        "rejected": 325,
+        "excluded": 131
+      },
+      "2022": {
+        "total": 1914,
+        "approved": 1407,
+        "rejected": 377,
+        "excluded": 130
+      },
+      "2023": {
+        "total": 1607,
+        "approved": 1128,
+        "rejected": 355,
+        "excluded": 124
+      },
+      "2024": {
+        "total": 1534,
+        "approved": 1128,
+        "rejected": 274,
+        "excluded": 132
+      },
+      "2025": {
+        "total": 1353,
+        "approved": 927,
+        "rejected": 218,
+        "excluded": 208
+      },
+      "2026": {
+        "total": 189,
+        "approved": 11,
+        "rejected": 1,
+        "excluded": 177
+      }
+    },
+    "Bexley": {
+      "2016": {
+        "total": 1646,
+        "approved": 1343,
+        "rejected": 253,
+        "excluded": 50
+      },
+      "2017": {
+        "total": 1857,
+        "approved": 1566,
+        "rejected": 248,
+        "excluded": 43
+      },
+      "2018": {
+        "total": 1767,
+        "approved": 1517,
+        "rejected": 202,
+        "excluded": 48
+      },
+      "2019": {
+        "total": 1674,
+        "approved": 1367,
+        "rejected": 269,
+        "excluded": 38
+      },
+      "2020": {
+        "total": 1933,
+        "approved": 1401,
+        "rejected": 471,
+        "excluded": 61
+      },
+      "2021": {
+        "total": 2153,
+        "approved": 1713,
+        "rejected": 371,
+        "excluded": 69
+      },
+      "2022": {
+        "total": 1778,
+        "approved": 1444,
+        "rejected": 258,
+        "excluded": 76
+      },
+      "2023": {
+        "total": 1506,
+        "approved": 1200,
+        "rejected": 189,
+        "excluded": 117
+      },
+      "2024": {
+        "total": 1362,
+        "approved": 359,
+        "rejected": 73,
+        "excluded": 930
+      },
+      "2025": {
+        "total": 1518,
+        "approved": 693,
+        "rejected": 55,
+        "excluded": 770
+      },
+      "2026": {
+        "total": 131,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 130
+      }
     },
     "Tower Hamlets": {
-      "total": 4836,
-      "approved": 3336,
-      "rejected": 1090,
-      "excluded": 410,
-      "decided": 4426,
-      "approval_rate_pct": 75.4,
-      "approved_rejected_ratio": 3.06
+      "2016": {
+        "total": 758,
+        "approved": 531,
+        "rejected": 176,
+        "excluded": 51
+      },
+      "2017": {
+        "total": 609,
+        "approved": 383,
+        "rejected": 172,
+        "excluded": 54
+      },
+      "2018": {
+        "total": 576,
+        "approved": 383,
+        "rejected": 145,
+        "excluded": 48
+      },
+      "2019": {
+        "total": 473,
+        "approved": 335,
+        "rejected": 97,
+        "excluded": 41
+      },
+      "2020": {
+        "total": 470,
+        "approved": 300,
+        "rejected": 123,
+        "excluded": 47
+      },
+      "2021": {
+        "total": 417,
+        "approved": 284,
+        "rejected": 107,
+        "excluded": 26
+      },
+      "2022": {
+        "total": 563,
+        "approved": 454,
+        "rejected": 75,
+        "excluded": 34
+      },
+      "2023": {
+        "total": 349,
+        "approved": 250,
+        "rejected": 77,
+        "excluded": 22
+      },
+      "2024": {
+        "total": 281,
+        "approved": 193,
+        "rejected": 70,
+        "excluded": 18
+      },
+      "2025": {
+        "total": 291,
+        "approved": 208,
+        "rejected": 48,
+        "excluded": 35
+      },
+      "2026": {
+        "total": 49,
+        "approved": 15,
+        "rejected": 0,
+        "excluded": 34
+      }
+    },
+    "City of London": {
+      "2016": {
+        "total": 20,
+        "approved": 18,
+        "rejected": 0,
+        "excluded": 2
+      },
+      "2017": {
+        "total": 12,
+        "approved": 10,
+        "rejected": 0,
+        "excluded": 2
+      },
+      "2018": {
+        "total": 9,
+        "approved": 7,
+        "rejected": 0,
+        "excluded": 2
+      },
+      "2019": {
+        "total": 3,
+        "approved": 3,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2020": {
+        "total": 29,
+        "approved": 16,
+        "rejected": 2,
+        "excluded": 11
+      },
+      "2021": {
+        "total": 16,
+        "approved": 12,
+        "rejected": 0,
+        "excluded": 4
+      },
+      "2022": {
+        "total": 15,
+        "approved": 11,
+        "rejected": 0,
+        "excluded": 4
+      },
+      "2023": {
+        "total": 10,
+        "approved": 8,
+        "rejected": 1,
+        "excluded": 1
+      },
+      "2024": {
+        "total": 17,
+        "approved": 15,
+        "rejected": 0,
+        "excluded": 2
+      },
+      "2025": {
+        "total": 23,
+        "approved": 21,
+        "rejected": 0,
+        "excluded": 2
+      },
+      "2026": {
+        "total": 1,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 1
+      }
+    },
+    "Hackney": {
+      "2016": {
+        "total": 19,
+        "approved": 15,
+        "rejected": 0,
+        "excluded": 4
+      },
+      "2017": {
+        "total": 26,
+        "approved": 20,
+        "rejected": 0,
+        "excluded": 6
+      },
+      "2018": {
+        "total": 29,
+        "approved": 24,
+        "rejected": 0,
+        "excluded": 5
+      },
+      "2019": {
+        "total": 14,
+        "approved": 9,
+        "rejected": 1,
+        "excluded": 4
+      },
+      "2020": {
+        "total": 7,
+        "approved": 5,
+        "rejected": 0,
+        "excluded": 2
+      },
+      "2021": {
+        "total": 16,
+        "approved": 14,
+        "rejected": 0,
+        "excluded": 2
+      },
+      "2022": {
+        "total": 13,
+        "approved": 10,
+        "rejected": 1,
+        "excluded": 2
+      },
+      "2023": {
+        "total": 9,
+        "approved": 8,
+        "rejected": 0,
+        "excluded": 1
+      },
+      "2024": {
+        "total": 4,
+        "approved": 3,
+        "rejected": 0,
+        "excluded": 1
+      },
+      "2025": {
+        "total": 549,
+        "approved": 338,
+        "rejected": 73,
+        "excluded": 138
+      },
+      "2026": {
+        "total": 70,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 70
+      }
     },
     "Waltham Forest": {
-      "total": 17687,
-      "approved": 11831,
-      "rejected": 3817,
-      "excluded": 2039,
-      "decided": 15648,
-      "approval_rate_pct": 75.6,
-      "approved_rejected_ratio": 3.1
+      "2016": {
+        "total": 1689,
+        "approved": 1211,
+        "rejected": 328,
+        "excluded": 150
+      },
+      "2017": {
+        "total": 2463,
+        "approved": 1683,
+        "rejected": 552,
+        "excluded": 228
+      },
+      "2018": {
+        "total": 2161,
+        "approved": 1583,
+        "rejected": 404,
+        "excluded": 174
+      },
+      "2019": {
+        "total": 1852,
+        "approved": 1271,
+        "rejected": 402,
+        "excluded": 179
+      },
+      "2020": {
+        "total": 1776,
+        "approved": 1184,
+        "rejected": 431,
+        "excluded": 161
+      },
+      "2021": {
+        "total": 2000,
+        "approved": 1472,
+        "rejected": 398,
+        "excluded": 130
+      },
+      "2022": {
+        "total": 1638,
+        "approved": 1110,
+        "rejected": 406,
+        "excluded": 122
+      },
+      "2023": {
+        "total": 1362,
+        "approved": 795,
+        "rejected": 322,
+        "excluded": 245
+      },
+      "2024": {
+        "total": 1258,
+        "approved": 834,
+        "rejected": 346,
+        "excluded": 78
+      },
+      "2025": {
+        "total": 1306,
+        "approved": 684,
+        "rejected": 227,
+        "excluded": 395
+      },
+      "2026": {
+        "total": 182,
+        "approved": 4,
+        "rejected": 1,
+        "excluded": 177
+      }
     },
-    "Wandsworth": {
-      "total": 23545,
-      "approved": 19044,
-      "rejected": 2015,
-      "excluded": 2486,
-      "decided": 21059,
-      "approval_rate_pct": 90.4,
-      "approved_rejected_ratio": 9.45
+    "Redbridge": {
+      "2016": {
+        "total": 3237,
+        "approved": 2176,
+        "rejected": 804,
+        "excluded": 257
+      },
+      "2017": {
+        "total": 3733,
+        "approved": 2719,
+        "rejected": 727,
+        "excluded": 287
+      },
+      "2018": {
+        "total": 3483,
+        "approved": 2615,
+        "rejected": 596,
+        "excluded": 272
+      },
+      "2019": {
+        "total": 2992,
+        "approved": 2075,
+        "rejected": 732,
+        "excluded": 185
+      },
+      "2020": {
+        "total": 2209,
+        "approved": 1569,
+        "rejected": 568,
+        "excluded": 72
+      },
+      "2021": {
+        "total": 2352,
+        "approved": 1832,
+        "rejected": 449,
+        "excluded": 71
+      },
+      "2022": {
+        "total": 1768,
+        "approved": 1442,
+        "rejected": 266,
+        "excluded": 60
+      },
+      "2023": {
+        "total": 1546,
+        "approved": 1256,
+        "rejected": 250,
+        "excluded": 40
+      },
+      "2024": {
+        "total": 1487,
+        "approved": 1173,
+        "rejected": 288,
+        "excluded": 26
+      },
+      "2025": {
+        "total": 1472,
+        "approved": 1132,
+        "rejected": 280,
+        "excluded": 60
+      },
+      "2026": {
+        "total": 188,
+        "approved": 68,
+        "rejected": 10,
+        "excluded": 110
+      }
+    },
+    "Newham": {
+      "2016": {
+        "total": 1509,
+        "approved": 957,
+        "rejected": 505,
+        "excluded": 47
+      },
+      "2017": {
+        "total": 1369,
+        "approved": 991,
+        "rejected": 344,
+        "excluded": 34
+      },
+      "2018": {
+        "total": 1197,
+        "approved": 907,
+        "rejected": 234,
+        "excluded": 56
+      },
+      "2019": {
+        "total": 1117,
+        "approved": 841,
+        "rejected": 236,
+        "excluded": 40
+      },
+      "2020": {
+        "total": 975,
+        "approved": 702,
+        "rejected": 237,
+        "excluded": 36
+      },
+      "2021": {
+        "total": 1127,
+        "approved": 751,
+        "rejected": 290,
+        "excluded": 86
+      },
+      "2022": {
+        "total": 981,
+        "approved": 700,
+        "rejected": 223,
+        "excluded": 58
+      },
+      "2023": {
+        "total": 938,
+        "approved": 737,
+        "rejected": 161,
+        "excluded": 40
+      },
+      "2024": {
+        "total": 823,
+        "approved": 559,
+        "rejected": 177,
+        "excluded": 87
+      },
+      "2025": {
+        "total": 745,
+        "approved": 297,
+        "rejected": 77,
+        "excluded": 371
+      },
+      "2026": {
+        "total": 103,
+        "approved": 2,
+        "rejected": 0,
+        "excluded": 101
+      }
+    },
+    "Islington": {
+      "2016": {
+        "total": 700,
+        "approved": 454,
+        "rejected": 181,
+        "excluded": 65
+      },
+      "2017": {
+        "total": 751,
+        "approved": 503,
+        "rejected": 187,
+        "excluded": 61
+      },
+      "2018": {
+        "total": 705,
+        "approved": 484,
+        "rejected": 158,
+        "excluded": 63
+      },
+      "2019": {
+        "total": 597,
+        "approved": 422,
+        "rejected": 130,
+        "excluded": 45
+      },
+      "2020": {
+        "total": 691,
+        "approved": 474,
+        "rejected": 163,
+        "excluded": 54
+      },
+      "2021": {
+        "total": 626,
+        "approved": 418,
+        "rejected": 155,
+        "excluded": 53
+      },
+      "2022": {
+        "total": 602,
+        "approved": 408,
+        "rejected": 130,
+        "excluded": 64
+      },
+      "2023": {
+        "total": 575,
+        "approved": 429,
+        "rejected": 91,
+        "excluded": 55
+      },
+      "2024": {
+        "total": 490,
+        "approved": 328,
+        "rejected": 79,
+        "excluded": 83
+      },
+      "2025": {
+        "total": 534,
+        "approved": 369,
+        "rejected": 75,
+        "excluded": 90
+      },
+      "2026": {
+        "total": 46,
+        "approved": 2,
+        "rejected": 0,
+        "excluded": 44
+      }
+    },
+    "Camden": {
+      "2016": {
+        "total": 9,
+        "approved": 8,
+        "rejected": 1,
+        "excluded": 0
+      },
+      "2017": {
+        "total": 4,
+        "approved": 2,
+        "rejected": 1,
+        "excluded": 1
+      },
+      "2018": {
+        "total": 2,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 2
+      },
+      "2019": {
+        "total": 6,
+        "approved": 5,
+        "rejected": 0,
+        "excluded": 1
+      },
+      "2020": {
+        "total": 2,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 1
+      },
+      "2021": {
+        "total": 4,
+        "approved": 4,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2022": {
+        "total": 3,
+        "approved": 3,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2023": {
+        "total": 2,
+        "approved": 2,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2024": {
+        "total": 3,
+        "approved": 2,
+        "rejected": 0,
+        "excluded": 1
+      },
+      "2025": {
+        "total": 13,
+        "approved": 10,
+        "rejected": 0,
+        "excluded": 3
+      },
+      "2026": {
+        "total": 2,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 1
+      }
     },
     "Westminster": {
-      "total": 255,
-      "approved": 132,
-      "rejected": 24,
-      "excluded": 99,
-      "decided": 156,
-      "approval_rate_pct": 84.6,
-      "approved_rejected_ratio": 5.5
+      "2016": {
+        "total": 1,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2017": {
+        "total": 2,
+        "approved": 2,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2019": {
+        "total": 1,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 1
+      },
+      "2020": {
+        "total": 1,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2021": {
+        "total": 2,
+        "approved": 2,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2023": {
+        "total": 178,
+        "approved": 92,
+        "rejected": 20,
+        "excluded": 66
+      },
+      "2024": {
+        "total": 65,
+        "approved": 30,
+        "rejected": 4,
+        "excluded": 31
+      },
+      "2025": {
+        "total": 5,
+        "approved": 4,
+        "rejected": 0,
+        "excluded": 1
+      }
+    },
+    "Enfield": {
+      "2016": {
+        "total": 1,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2017": {
+        "total": 3,
+        "approved": 3,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2019": {
+        "total": 1,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2020": {
+        "total": 5,
+        "approved": 3,
+        "rejected": 2,
+        "excluded": 0
+      },
+      "2021": {
+        "total": 5,
+        "approved": 2,
+        "rejected": 1,
+        "excluded": 2
+      },
+      "2022": {
+        "total": 2,
+        "approved": 2,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2023": {
+        "total": 2,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 1
+      },
+      "2024": {
+        "total": 3,
+        "approved": 3,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2025": {
+        "total": 1367,
+        "approved": 480,
+        "rejected": 113,
+        "excluded": 774
+      },
+      "2026": {
+        "total": 196,
+        "approved": 5,
+        "rejected": 2,
+        "excluded": 189
+      }
+    },
+    "Barnet": {
+      "2016": {
+        "total": 4154,
+        "approved": 2701,
+        "rejected": 1197,
+        "excluded": 256
+      },
+      "2017": {
+        "total": 4498,
+        "approved": 2925,
+        "rejected": 1277,
+        "excluded": 296
+      },
+      "2018": {
+        "total": 4085,
+        "approved": 2713,
+        "rejected": 1101,
+        "excluded": 271
+      },
+      "2019": {
+        "total": 3371,
+        "approved": 2256,
+        "rejected": 847,
+        "excluded": 268
+      },
+      "2020": {
+        "total": 3024,
+        "approved": 2066,
+        "rejected": 691,
+        "excluded": 267
+      },
+      "2021": {
+        "total": 3395,
+        "approved": 2374,
+        "rejected": 758,
+        "excluded": 263
+      },
+      "2022": {
+        "total": 2935,
+        "approved": 2139,
+        "rejected": 557,
+        "excluded": 239
+      },
+      "2023": {
+        "total": 2487,
+        "approved": 1706,
+        "rejected": 527,
+        "excluded": 254
+      },
+      "2024": {
+        "total": 2325,
+        "approved": 1542,
+        "rejected": 441,
+        "excluded": 342
+      },
+      "2025": {
+        "total": 2274,
+        "approved": 1033,
+        "rejected": 301,
+        "excluded": 940
+      },
+      "2026": {
+        "total": 195,
+        "approved": 3,
+        "rejected": 0,
+        "excluded": 192
+      }
+    },
+    "Brent": {
+      "2016": {
+        "total": 3133,
+        "approved": 1923,
+        "rejected": 1041,
+        "excluded": 169
+      },
+      "2017": {
+        "total": 3374,
+        "approved": 2229,
+        "rejected": 989,
+        "excluded": 156
+      },
+      "2018": {
+        "total": 3017,
+        "approved": 2160,
+        "rejected": 678,
+        "excluded": 179
+      },
+      "2019": {
+        "total": 2770,
+        "approved": 1923,
+        "rejected": 667,
+        "excluded": 180
+      },
+      "2020": {
+        "total": 2533,
+        "approved": 1715,
+        "rejected": 716,
+        "excluded": 102
+      },
+      "2021": {
+        "total": 2814,
+        "approved": 1860,
+        "rejected": 820,
+        "excluded": 134
+      },
+      "2022": {
+        "total": 2348,
+        "approved": 1599,
+        "rejected": 667,
+        "excluded": 82
+      },
+      "2023": {
+        "total": 1997,
+        "approved": 1330,
+        "rejected": 578,
+        "excluded": 89
+      },
+      "2024": {
+        "total": 1865,
+        "approved": 1343,
+        "rejected": 460,
+        "excluded": 62
+      },
+      "2025": {
+        "total": 1758,
+        "approved": 1266,
+        "rejected": 362,
+        "excluded": 130
+      },
+      "2026": {
+        "total": 170,
+        "approved": 29,
+        "rejected": 9,
+        "excluded": 132
+      }
+    },
+    "Ealing": {
+      "2016": {
+        "total": 48,
+        "approved": 35,
+        "rejected": 0,
+        "excluded": 13
+      },
+      "2017": {
+        "total": 33,
+        "approved": 32,
+        "rejected": 0,
+        "excluded": 1
+      },
+      "2018": {
+        "total": 38,
+        "approved": 38,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2019": {
+        "total": 27,
+        "approved": 27,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2020": {
+        "total": 28,
+        "approved": 28,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2021": {
+        "total": 51,
+        "approved": 47,
+        "rejected": 0,
+        "excluded": 4
+      },
+      "2022": {
+        "total": 40,
+        "approved": 36,
+        "rejected": 1,
+        "excluded": 3
+      },
+      "2023": {
+        "total": 60,
+        "approved": 57,
+        "rejected": 0,
+        "excluded": 3
+      },
+      "2024": {
+        "total": 58,
+        "approved": 56,
+        "rejected": 1,
+        "excluded": 1
+      },
+      "2025": {
+        "total": 2033,
+        "approved": 1554,
+        "rejected": 254,
+        "excluded": 225
+      },
+      "2026": {
+        "total": 277,
+        "approved": 46,
+        "rejected": 6,
+        "excluded": 225
+      }
+    },
+    "Harrow": {
+      "2017": {
+        "total": 1,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2019": {
+        "total": 10,
+        "approved": 7,
+        "rejected": 2,
+        "excluded": 1
+      },
+      "2020": {
+        "total": 8,
+        "approved": 8,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2021": {
+        "total": 7,
+        "approved": 6,
+        "rejected": 0,
+        "excluded": 1
+      },
+      "2022": {
+        "total": 2,
+        "approved": 2,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2023": {
+        "total": 1,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2024": {
+        "total": 1,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2025": {
+        "total": 1066,
+        "approved": 498,
+        "rejected": 111,
+        "excluded": 457
+      },
+      "2026": {
+        "total": 127,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 126
+      }
+    },
+    "Hillingdon": {
+      "2025": {
+        "total": 732,
+        "approved": 585,
+        "rejected": 64,
+        "excluded": 83
+      },
+      "2026": {
+        "total": 70,
+        "approved": 10,
+        "rejected": 0,
+        "excluded": 60
+      }
+    },
+    "Barking and Dagenham": {
+      "2016": {
+        "total": 1147,
+        "approved": 839,
+        "rejected": 261,
+        "excluded": 47
+      },
+      "2017": {
+        "total": 1340,
+        "approved": 1003,
+        "rejected": 305,
+        "excluded": 32
+      },
+      "2018": {
+        "total": 1447,
+        "approved": 1081,
+        "rejected": 316,
+        "excluded": 50
+      },
+      "2019": {
+        "total": 1222,
+        "approved": 886,
+        "rejected": 293,
+        "excluded": 43
+      },
+      "2020": {
+        "total": 978,
+        "approved": 655,
+        "rejected": 300,
+        "excluded": 23
+      },
+      "2021": {
+        "total": 932,
+        "approved": 661,
+        "rejected": 249,
+        "excluded": 22
+      },
+      "2022": {
+        "total": 828,
+        "approved": 582,
+        "rejected": 221,
+        "excluded": 25
+      },
+      "2023": {
+        "total": 734,
+        "approved": 442,
+        "rejected": 174,
+        "excluded": 118
+      },
+      "2024": {
+        "total": 676,
+        "approved": 507,
+        "rejected": 151,
+        "excluded": 18
+      },
+      "2025": {
+        "total": 688,
+        "approved": 429,
+        "rejected": 175,
+        "excluded": 84
+      },
+      "2026": {
+        "total": 43,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 43
+      }
+    },
+    "Kingston upon Thames": {
+      "2016": {
+        "total": 3617,
+        "approved": 2715,
+        "rejected": 726,
+        "excluded": 176
+      },
+      "2017": {
+        "total": 4337,
+        "approved": 3240,
+        "rejected": 861,
+        "excluded": 236
+      },
+      "2018": {
+        "total": 3934,
+        "approved": 3126,
+        "rejected": 625,
+        "excluded": 183
+      },
+      "2019": {
+        "total": 1820,
+        "approved": 1428,
+        "rejected": 283,
+        "excluded": 109
+      },
+      "2020": {
+        "total": 1773,
+        "approved": 1326,
+        "rejected": 352,
+        "excluded": 95
+      },
+      "2021": {
+        "total": 2347,
+        "approved": 1668,
+        "rejected": 606,
+        "excluded": 73
+      },
+      "2022": {
+        "total": 2165,
+        "approved": 1530,
+        "rejected": 555,
+        "excluded": 80
+      },
+      "2023": {
+        "total": 1825,
+        "approved": 1215,
+        "rejected": 534,
+        "excluded": 76
+      },
+      "2024": {
+        "total": 1523,
+        "approved": 911,
+        "rejected": 404,
+        "excluded": 208
+      },
+      "2025": {
+        "total": 1587,
+        "approved": 655,
+        "rejected": 245,
+        "excluded": 687
+      },
+      "2026": {
+        "total": 85,
+        "approved": 3,
+        "rejected": 0,
+        "excluded": 82
+      }
+    },
+    "Richmond upon Thames": {
+      "2016": {
+        "total": 1867,
+        "approved": 1413,
+        "rejected": 298,
+        "excluded": 156
+      },
+      "2017": {
+        "total": 2062,
+        "approved": 1590,
+        "rejected": 342,
+        "excluded": 130
+      },
+      "2018": {
+        "total": 1873,
+        "approved": 1444,
+        "rejected": 280,
+        "excluded": 149
+      },
+      "2019": {
+        "total": 1742,
+        "approved": 1302,
+        "rejected": 314,
+        "excluded": 126
+      },
+      "2020": {
+        "total": 1585,
+        "approved": 1217,
+        "rejected": 274,
+        "excluded": 94
+      },
+      "2021": {
+        "total": 1907,
+        "approved": 1452,
+        "rejected": 366,
+        "excluded": 89
+      },
+      "2022": {
+        "total": 1423,
+        "approved": 1128,
+        "rejected": 240,
+        "excluded": 55
+      },
+      "2023": {
+        "total": 1189,
+        "approved": 887,
+        "rejected": 248,
+        "excluded": 54
+      },
+      "2024": {
+        "total": 1060,
+        "approved": 791,
+        "rejected": 222,
+        "excluded": 47
+      },
+      "2025": {
+        "total": 1108,
+        "approved": 829,
+        "rejected": 189,
+        "excluded": 90
+      },
+      "2026": {
+        "total": 143,
+        "approved": 42,
+        "rejected": 2,
+        "excluded": 99
+      }
+    },
+    "Haringey": {
+      "2016": {
+        "total": 10,
+        "approved": 7,
+        "rejected": 1,
+        "excluded": 2
+      },
+      "2017": {
+        "total": 11,
+        "approved": 8,
+        "rejected": 1,
+        "excluded": 2
+      },
+      "2018": {
+        "total": 6,
+        "approved": 4,
+        "rejected": 2,
+        "excluded": 0
+      },
+      "2019": {
+        "total": 10,
+        "approved": 9,
+        "rejected": 0,
+        "excluded": 1
+      },
+      "2020": {
+        "total": 5,
+        "approved": 4,
+        "rejected": 0,
+        "excluded": 1
+      },
+      "2021": {
+        "total": 5,
+        "approved": 3,
+        "rejected": 1,
+        "excluded": 1
+      },
+      "2022": {
+        "total": 5,
+        "approved": 3,
+        "rejected": 2,
+        "excluded": 0
+      },
+      "2023": {
+        "total": 3,
+        "approved": 3,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2024": {
+        "total": 6,
+        "approved": 4,
+        "rejected": 1,
+        "excluded": 1
+      },
+      "2025": {
+        "total": 901,
+        "approved": 732,
+        "rejected": 88,
+        "excluded": 81
+      },
+      "2026": {
+        "total": 122,
+        "approved": 24,
+        "rejected": 1,
+        "excluded": 97
+      }
+    },
+    "Hammersmith and Fulham": {
+      "2016": {
+        "total": 4,
+        "approved": 4,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2017": {
+        "total": 15,
+        "approved": 11,
+        "rejected": 2,
+        "excluded": 2
+      },
+      "2018": {
+        "total": 24,
+        "approved": 21,
+        "rejected": 0,
+        "excluded": 3
+      },
+      "2019": {
+        "total": 6,
+        "approved": 4,
+        "rejected": 1,
+        "excluded": 1
+      },
+      "2020": {
+        "total": 14,
+        "approved": 12,
+        "rejected": 0,
+        "excluded": 2
+      },
+      "2021": {
+        "total": 15,
+        "approved": 12,
+        "rejected": 0,
+        "excluded": 3
+      },
+      "2022": {
+        "total": 5,
+        "approved": 4,
+        "rejected": 0,
+        "excluded": 1
+      },
+      "2023": {
+        "total": 15,
+        "approved": 9,
+        "rejected": 0,
+        "excluded": 6
+      },
+      "2024": {
+        "total": 9,
+        "approved": 8,
+        "rejected": 0,
+        "excluded": 1
+      },
+      "2025": {
+        "total": 702,
+        "approved": 374,
+        "rejected": 22,
+        "excluded": 306
+      },
+      "2026": {
+        "total": 75,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 75
+      }
+    },
+    "Southwark": {
+      "2016": {
+        "total": 1753,
+        "approved": 1385,
+        "rejected": 201,
+        "excluded": 167
+      },
+      "2017": {
+        "total": 1875,
+        "approved": 1534,
+        "rejected": 152,
+        "excluded": 189
+      },
+      "2018": {
+        "total": 1662,
+        "approved": 1331,
+        "rejected": 152,
+        "excluded": 179
+      },
+      "2019": {
+        "total": 1336,
+        "approved": 1101,
+        "rejected": 91,
+        "excluded": 144
+      },
+      "2020": {
+        "total": 1266,
+        "approved": 1099,
+        "rejected": 93,
+        "excluded": 74
+      },
+      "2021": {
+        "total": 1383,
+        "approved": 1203,
+        "rejected": 81,
+        "excluded": 99
+      },
+      "2022": {
+        "total": 1209,
+        "approved": 1029,
+        "rejected": 87,
+        "excluded": 93
+      },
+      "2023": {
+        "total": 954,
+        "approved": 783,
+        "rejected": 64,
+        "excluded": 107
+      },
+      "2024": {
+        "total": 1096,
+        "approved": 896,
+        "rejected": 70,
+        "excluded": 130
+      },
+      "2025": {
+        "total": 1008,
+        "approved": 317,
+        "rejected": 12,
+        "excluded": 679
+      },
+      "2026": {
+        "total": 116,
+        "approved": 10,
+        "rejected": 0,
+        "excluded": 106
+      }
+    },
+    "Kensington and Chelsea": {
+      "2016": {
+        "total": 693,
+        "approved": 507,
+        "rejected": 67,
+        "excluded": 119
+      },
+      "2017": {
+        "total": 696,
+        "approved": 534,
+        "rejected": 59,
+        "excluded": 103
+      },
+      "2018": {
+        "total": 651,
+        "approved": 498,
+        "rejected": 59,
+        "excluded": 94
+      },
+      "2019": {
+        "total": 571,
+        "approved": 437,
+        "rejected": 49,
+        "excluded": 85
+      },
+      "2020": {
+        "total": 455,
+        "approved": 320,
+        "rejected": 58,
+        "excluded": 77
+      },
+      "2021": {
+        "total": 490,
+        "approved": 393,
+        "rejected": 38,
+        "excluded": 59
+      },
+      "2022": {
+        "total": 461,
+        "approved": 365,
+        "rejected": 34,
+        "excluded": 62
+      },
+      "2023": {
+        "total": 458,
+        "approved": 348,
+        "rejected": 44,
+        "excluded": 66
+      },
+      "2024": {
+        "total": 493,
+        "approved": 366,
+        "rejected": 35,
+        "excluded": 92
+      },
+      "2025": {
+        "total": 442,
+        "approved": 286,
+        "rejected": 18,
+        "excluded": 138
+      }
+    },
+    "Wandsworth": {
+      "2016": {
+        "total": 2859,
+        "approved": 2269,
+        "rejected": 273,
+        "excluded": 317
+      },
+      "2017": {
+        "total": 2938,
+        "approved": 2336,
+        "rejected": 275,
+        "excluded": 327
+      },
+      "2018": {
+        "total": 2677,
+        "approved": 2170,
+        "rejected": 242,
+        "excluded": 265
+      },
+      "2019": {
+        "total": 2448,
+        "approved": 2008,
+        "rejected": 197,
+        "excluded": 243
+      },
+      "2020": {
+        "total": 2254,
+        "approved": 1902,
+        "rejected": 160,
+        "excluded": 192
+      },
+      "2021": {
+        "total": 2432,
+        "approved": 2058,
+        "rejected": 175,
+        "excluded": 199
+      },
+      "2022": {
+        "total": 2162,
+        "approved": 1812,
+        "rejected": 186,
+        "excluded": 164
+      },
+      "2023": {
+        "total": 1954,
+        "approved": 1587,
+        "rejected": 203,
+        "excluded": 164
+      },
+      "2024": {
+        "total": 1793,
+        "approved": 1500,
+        "rejected": 170,
+        "excluded": 123
+      },
+      "2025": {
+        "total": 1719,
+        "approved": 1379,
+        "rejected": 132,
+        "excluded": 208
+      },
+      "2026": {
+        "total": 309,
+        "approved": 23,
+        "rejected": 2,
+        "excluded": 284
+      }
+    },
+    "Hounslow": {
+      "2016": {
+        "total": 5,
+        "approved": 4,
+        "rejected": 1,
+        "excluded": 0
+      },
+      "2017": {
+        "total": 12,
+        "approved": 12,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2018": {
+        "total": 6,
+        "approved": 6,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2019": {
+        "total": 9,
+        "approved": 9,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2020": {
+        "total": 6,
+        "approved": 6,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2021": {
+        "total": 5,
+        "approved": 5,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2022": {
+        "total": 5,
+        "approved": 5,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2023": {
+        "total": 2,
+        "approved": 2,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2024": {
+        "total": 10,
+        "approved": 9,
+        "rejected": 0,
+        "excluded": 1
+      },
+      "2025": {
+        "total": 1477,
+        "approved": 1068,
+        "rejected": 208,
+        "excluded": 201
+      },
+      "2026": {
+        "total": 181,
+        "approved": 20,
+        "rejected": 0,
+        "excluded": 161
+      }
     }
   },
   "opportunity_areas": {
-    "Brent Cross/Cricklewood": {
-      "total": 1686,
-      "approved": 1064,
-      "rejected": 420,
-      "excluded": 202,
-      "decided": 1484,
-      "approval_rate_pct": 71.7,
-      "approved_rejected_ratio": 2.53
-    },
-    "Canada Water": {
-      "total": 751,
-      "approved": 572,
-      "rejected": 61,
-      "excluded": 118,
-      "decided": 633,
-      "approval_rate_pct": 90.4,
-      "approved_rejected_ratio": 9.38
-    },
-    "Charlton Riverside": {
-      "total": 3,
-      "approved": 3,
-      "rejected": 0,
-      "excluded": 0,
-      "decided": 3,
-      "approval_rate_pct": 100.0,
-      "approved_rejected_ratio": null
-    },
-    "City Fringe/Tech City": {
-      "total": 1900,
-      "approved": 1279,
-      "rejected": 393,
-      "excluded": 228,
-      "decided": 1672,
-      "approval_rate_pct": 76.5,
-      "approved_rejected_ratio": 3.25
-    },
-    "Colindale/Burnt Oak": {
-      "total": 629,
-      "approved": 392,
-      "rejected": 169,
-      "excluded": 68,
-      "decided": 561,
-      "approval_rate_pct": 69.9,
-      "approved_rejected_ratio": 2.32
-    },
     "Croydon": {
-      "total": 98,
-      "approved": 59,
-      "rejected": 15,
-      "excluded": 24,
-      "decided": 74,
-      "approval_rate_pct": 79.7,
-      "approved_rejected_ratio": 3.93
-    },
-    "Deptford Creek/Greenwich Riverside": {
-      "total": 296,
-      "approved": 217,
-      "rejected": 46,
-      "excluded": 33,
-      "decided": 263,
-      "approval_rate_pct": 82.5,
-      "approved_rejected_ratio": 4.72
-    },
-    "Earl's Court/West Kensington": {
-      "total": 10,
-      "approved": 6,
-      "rejected": 0,
-      "excluded": 4,
-      "decided": 6,
-      "approval_rate_pct": 100.0,
-      "approved_rejected_ratio": null
-    },
-    "Elephant and Castle": {
-      "total": 606,
-      "approved": 449,
-      "rejected": 49,
-      "excluded": 108,
-      "decided": 498,
-      "approval_rate_pct": 90.2,
-      "approved_rejected_ratio": 9.16
-    },
-    "Greenwich Peninsula": {
-      "total": 13,
-      "approved": 11,
-      "rejected": 0,
-      "excluded": 2,
-      "decided": 11,
-      "approval_rate_pct": 100.0,
-      "approved_rejected_ratio": null
-    },
-    "Harrow and Wealdstone": {
-      "total": 42,
-      "approved": 9,
-      "rejected": 4,
-      "excluded": 29,
-      "decided": 13,
-      "approval_rate_pct": 69.2,
-      "approved_rejected_ratio": 2.25
-    },
-    "Ilford": {
-      "total": 224,
-      "approved": 142,
-      "rejected": 52,
-      "excluded": 30,
-      "decided": 194,
-      "approval_rate_pct": 73.2,
-      "approved_rejected_ratio": 2.73
-    },
-    "Isle of Dogs": {
-      "total": 983,
-      "approved": 702,
-      "rejected": 216,
-      "excluded": 65,
-      "decided": 918,
-      "approval_rate_pct": 76.5,
-      "approved_rejected_ratio": 3.25
-    },
-    "Kensal Canalside": {
-      "total": 2,
-      "approved": 0,
-      "rejected": 2,
-      "excluded": 0,
-      "decided": 2,
-      "approval_rate_pct": 0.0,
-      "approved_rejected_ratio": 0.0
-    },
-    "King's Cross": {
-      "total": 4,
-      "approved": 3,
-      "rejected": 0,
-      "excluded": 1,
-      "decided": 3,
-      "approval_rate_pct": 100.0,
-      "approved_rejected_ratio": null
-    },
-    "Lee Valley": {
-      "total": 3040,
-      "approved": 1845,
-      "rejected": 540,
-      "excluded": 655,
-      "decided": 2385,
-      "approval_rate_pct": 77.4,
-      "approved_rejected_ratio": 3.42
-    },
-    "London Bridge/Bankside": {
-      "total": 1230,
-      "approved": 933,
-      "rejected": 92,
-      "excluded": 205,
-      "decided": 1025,
-      "approval_rate_pct": 91.0,
-      "approved_rejected_ratio": 10.14
-    },
-    "London Riverside": {
-      "total": 2637,
-      "approved": 1848,
-      "rejected": 634,
-      "excluded": 155,
-      "decided": 2482,
-      "approval_rate_pct": 74.5,
-      "approved_rejected_ratio": 2.91
-    },
-    "New Cross/Lewisham/Catford": {
-      "total": 2424,
-      "approved": 1685,
-      "rejected": 552,
-      "excluded": 187,
-      "decided": 2237,
-      "approval_rate_pct": 75.3,
-      "approved_rejected_ratio": 3.05
-    },
-    "Old Kent Road": {
-      "total": 1327,
-      "approved": 971,
-      "rejected": 97,
-      "excluded": 259,
-      "decided": 1068,
-      "approval_rate_pct": 90.9,
-      "approved_rejected_ratio": 10.01
-    },
-    "Old Oak/Park Royal": {
-      "total": 825,
-      "approved": 708,
-      "rejected": 28,
-      "excluded": 89,
-      "decided": 736,
-      "approval_rate_pct": 96.2,
-      "approved_rejected_ratio": 25.29
-    },
-    "Olympic Legacy": {
-      "total": 4872,
-      "approved": 3286,
-      "rejected": 1070,
-      "excluded": 516,
-      "decided": 4356,
-      "approval_rate_pct": 75.4,
-      "approved_rejected_ratio": 3.07
-    },
-    "Paddington": {
-      "total": 1,
-      "approved": 1,
-      "rejected": 0,
-      "excluded": 0,
-      "decided": 1,
-      "approval_rate_pct": 100.0,
-      "approved_rejected_ratio": null
-    },
-    "Royal Docks and Beckton Riverside": {
-      "total": 344,
-      "approved": 224,
-      "rejected": 74,
-      "excluded": 46,
-      "decided": 298,
-      "approval_rate_pct": 75.2,
-      "approved_rejected_ratio": 3.03
-    },
-    "Southall": {
-      "total": 255,
-      "approved": 162,
-      "rejected": 34,
-      "excluded": 59,
-      "decided": 196,
-      "approval_rate_pct": 82.7,
-      "approved_rejected_ratio": 4.76
-    },
-    "Thamesmead and Abbey Wood": {
-      "total": 329,
-      "approved": 192,
-      "rejected": 64,
-      "excluded": 73,
-      "decided": 256,
-      "approval_rate_pct": 75.0,
-      "approved_rejected_ratio": 3.0
-    },
-    "Vauxhall Nine Elms Battersea": {
-      "total": 1259,
-      "approved": 1029,
-      "rejected": 88,
-      "excluded": 142,
-      "decided": 1117,
-      "approval_rate_pct": 92.1,
-      "approved_rejected_ratio": 11.69
-    },
-    "Victoria": {
-      "total": 1,
-      "approved": 1,
-      "rejected": 0,
-      "excluded": 0,
-      "decided": 1,
-      "approval_rate_pct": 100.0,
-      "approved_rejected_ratio": null
-    },
-    "Waterloo": {
-      "total": 379,
-      "approved": 288,
-      "rejected": 49,
-      "excluded": 42,
-      "decided": 337,
-      "approval_rate_pct": 85.5,
-      "approved_rejected_ratio": 5.88
-    },
-    "Wembley": {
-      "total": 528,
-      "approved": 370,
-      "rejected": 110,
-      "excluded": 48,
-      "decided": 480,
-      "approval_rate_pct": 77.1,
-      "approved_rejected_ratio": 3.36
-    },
-    "White City": {
-      "total": 16,
-      "approved": 7,
-      "rejected": 1,
-      "excluded": 8,
-      "decided": 8,
-      "approval_rate_pct": 87.5,
-      "approved_rejected_ratio": 7.0
+      "2016": {
+        "total": 2,
+        "approved": 2,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2017": {
+        "total": 1,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2025": {
+        "total": 88,
+        "approved": 54,
+        "rejected": 14,
+        "excluded": 20
+      },
+      "2026": {
+        "total": 7,
+        "approved": 2,
+        "rejected": 1,
+        "excluded": 4
+      }
     },
     "Wimbledon/Colliers Wood/South Wimbledon": {
-      "total": 889,
-      "approved": 731,
-      "rejected": 68,
-      "excluded": 90,
-      "decided": 799,
-      "approval_rate_pct": 91.5,
-      "approved_rejected_ratio": 10.75
+      "2016": {
+        "total": 80,
+        "approved": 60,
+        "rejected": 15,
+        "excluded": 5
+      },
+      "2017": {
+        "total": 61,
+        "approved": 48,
+        "rejected": 6,
+        "excluded": 7
+      },
+      "2018": {
+        "total": 99,
+        "approved": 83,
+        "rejected": 12,
+        "excluded": 4
+      },
+      "2019": {
+        "total": 131,
+        "approved": 117,
+        "rejected": 7,
+        "excluded": 7
+      },
+      "2020": {
+        "total": 95,
+        "approved": 84,
+        "rejected": 6,
+        "excluded": 5
+      },
+      "2021": {
+        "total": 109,
+        "approved": 92,
+        "rejected": 6,
+        "excluded": 11
+      },
+      "2022": {
+        "total": 87,
+        "approved": 71,
+        "rejected": 1,
+        "excluded": 15
+      },
+      "2023": {
+        "total": 85,
+        "approved": 71,
+        "rejected": 4,
+        "excluded": 10
+      },
+      "2024": {
+        "total": 57,
+        "approved": 47,
+        "rejected": 7,
+        "excluded": 3
+      },
+      "2025": {
+        "total": 82,
+        "approved": 58,
+        "rejected": 4,
+        "excluded": 20
+      },
+      "2026": {
+        "total": 3,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 3
+      }
+    },
+    "Thamesmead and Abbey Wood": {
+      "2016": {
+        "total": 19,
+        "approved": 15,
+        "rejected": 3,
+        "excluded": 1
+      },
+      "2017": {
+        "total": 23,
+        "approved": 16,
+        "rejected": 7,
+        "excluded": 0
+      },
+      "2018": {
+        "total": 24,
+        "approved": 21,
+        "rejected": 3,
+        "excluded": 0
+      },
+      "2019": {
+        "total": 8,
+        "approved": 6,
+        "rejected": 2,
+        "excluded": 0
+      },
+      "2020": {
+        "total": 38,
+        "approved": 31,
+        "rejected": 7,
+        "excluded": 0
+      },
+      "2021": {
+        "total": 36,
+        "approved": 21,
+        "rejected": 13,
+        "excluded": 2
+      },
+      "2022": {
+        "total": 26,
+        "approved": 19,
+        "rejected": 4,
+        "excluded": 3
+      },
+      "2023": {
+        "total": 40,
+        "approved": 21,
+        "rejected": 12,
+        "excluded": 7
+      },
+      "2024": {
+        "total": 21,
+        "approved": 3,
+        "rejected": 2,
+        "excluded": 16
+      },
+      "2025": {
+        "total": 84,
+        "approved": 39,
+        "rejected": 11,
+        "excluded": 34
+      },
+      "2026": {
+        "total": 10,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 10
+      }
+    },
+    "City Fringe/Tech City": {
+      "2016": {
+        "total": 231,
+        "approved": 134,
+        "rejected": 78,
+        "excluded": 19
+      },
+      "2017": {
+        "total": 211,
+        "approved": 121,
+        "rejected": 59,
+        "excluded": 31
+      },
+      "2018": {
+        "total": 231,
+        "approved": 157,
+        "rejected": 56,
+        "excluded": 18
+      },
+      "2019": {
+        "total": 180,
+        "approved": 114,
+        "rejected": 49,
+        "excluded": 17
+      },
+      "2020": {
+        "total": 148,
+        "approved": 93,
+        "rejected": 30,
+        "excluded": 25
+      },
+      "2021": {
+        "total": 112,
+        "approved": 78,
+        "rejected": 25,
+        "excluded": 9
+      },
+      "2022": {
+        "total": 326,
+        "approved": 292,
+        "rejected": 22,
+        "excluded": 12
+      },
+      "2023": {
+        "total": 150,
+        "approved": 109,
+        "rejected": 28,
+        "excluded": 13
+      },
+      "2024": {
+        "total": 93,
+        "approved": 63,
+        "rejected": 18,
+        "excluded": 12
+      },
+      "2025": {
+        "total": 188,
+        "approved": 110,
+        "rejected": 28,
+        "excluded": 50
+      },
+      "2026": {
+        "total": 30,
+        "approved": 8,
+        "rejected": 0,
+        "excluded": 22
+      }
+    },
+    "Olympic Legacy": {
+      "2016": {
+        "total": 587,
+        "approved": 407,
+        "rejected": 139,
+        "excluded": 41
+      },
+      "2017": {
+        "total": 664,
+        "approved": 463,
+        "rejected": 158,
+        "excluded": 43
+      },
+      "2018": {
+        "total": 593,
+        "approved": 429,
+        "rejected": 110,
+        "excluded": 54
+      },
+      "2019": {
+        "total": 493,
+        "approved": 353,
+        "rejected": 97,
+        "excluded": 43
+      },
+      "2020": {
+        "total": 454,
+        "approved": 301,
+        "rejected": 120,
+        "excluded": 33
+      },
+      "2021": {
+        "total": 496,
+        "approved": 347,
+        "rejected": 115,
+        "excluded": 34
+      },
+      "2022": {
+        "total": 420,
+        "approved": 288,
+        "rejected": 96,
+        "excluded": 36
+      },
+      "2023": {
+        "total": 374,
+        "approved": 248,
+        "rejected": 95,
+        "excluded": 31
+      },
+      "2024": {
+        "total": 346,
+        "approved": 229,
+        "rejected": 88,
+        "excluded": 29
+      },
+      "2025": {
+        "total": 391,
+        "approved": 217,
+        "rejected": 52,
+        "excluded": 122
+      },
+      "2026": {
+        "total": 54,
+        "approved": 4,
+        "rejected": 0,
+        "excluded": 50
+      }
+    },
+    "Lee Valley": {
+      "2016": {
+        "total": 202,
+        "approved": 152,
+        "rejected": 38,
+        "excluded": 12
+      },
+      "2017": {
+        "total": 339,
+        "approved": 227,
+        "rejected": 79,
+        "excluded": 33
+      },
+      "2018": {
+        "total": 260,
+        "approved": 189,
+        "rejected": 50,
+        "excluded": 21
+      },
+      "2019": {
+        "total": 229,
+        "approved": 150,
+        "rejected": 53,
+        "excluded": 26
+      },
+      "2020": {
+        "total": 221,
+        "approved": 161,
+        "rejected": 41,
+        "excluded": 19
+      },
+      "2021": {
+        "total": 215,
+        "approved": 154,
+        "rejected": 46,
+        "excluded": 15
+      },
+      "2022": {
+        "total": 202,
+        "approved": 143,
+        "rejected": 50,
+        "excluded": 9
+      },
+      "2023": {
+        "total": 174,
+        "approved": 106,
+        "rejected": 31,
+        "excluded": 37
+      },
+      "2024": {
+        "total": 142,
+        "approved": 97,
+        "rejected": 38,
+        "excluded": 7
+      },
+      "2025": {
+        "total": 930,
+        "approved": 462,
+        "rejected": 114,
+        "excluded": 354
+      },
+      "2026": {
+        "total": 126,
+        "approved": 4,
+        "rejected": 0,
+        "excluded": 122
+      }
+    },
+    "Isle of Dogs": {
+      "2016": {
+        "total": 179,
+        "approved": 145,
+        "rejected": 26,
+        "excluded": 8
+      },
+      "2017": {
+        "total": 121,
+        "approved": 66,
+        "rejected": 44,
+        "excluded": 11
+      },
+      "2018": {
+        "total": 85,
+        "approved": 59,
+        "rejected": 21,
+        "excluded": 5
+      },
+      "2019": {
+        "total": 102,
+        "approved": 80,
+        "rejected": 15,
+        "excluded": 7
+      },
+      "2020": {
+        "total": 114,
+        "approved": 81,
+        "rejected": 25,
+        "excluded": 8
+      },
+      "2021": {
+        "total": 106,
+        "approved": 75,
+        "rejected": 29,
+        "excluded": 2
+      },
+      "2022": {
+        "total": 85,
+        "approved": 62,
+        "rejected": 16,
+        "excluded": 7
+      },
+      "2023": {
+        "total": 62,
+        "approved": 44,
+        "rejected": 15,
+        "excluded": 3
+      },
+      "2024": {
+        "total": 56,
+        "approved": 43,
+        "rejected": 12,
+        "excluded": 1
+      },
+      "2025": {
+        "total": 65,
+        "approved": 47,
+        "rejected": 13,
+        "excluded": 5
+      },
+      "2026": {
+        "total": 8,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 8
+      }
+    },
+    "Royal Docks and Beckton Riverside": {
+      "2016": {
+        "total": 37,
+        "approved": 25,
+        "rejected": 12,
+        "excluded": 0
+      },
+      "2017": {
+        "total": 38,
+        "approved": 25,
+        "rejected": 9,
+        "excluded": 4
+      },
+      "2018": {
+        "total": 26,
+        "approved": 20,
+        "rejected": 6,
+        "excluded": 0
+      },
+      "2019": {
+        "total": 35,
+        "approved": 26,
+        "rejected": 9,
+        "excluded": 0
+      },
+      "2020": {
+        "total": 36,
+        "approved": 21,
+        "rejected": 13,
+        "excluded": 2
+      },
+      "2021": {
+        "total": 35,
+        "approved": 21,
+        "rejected": 4,
+        "excluded": 10
+      },
+      "2022": {
+        "total": 42,
+        "approved": 26,
+        "rejected": 8,
+        "excluded": 8
+      },
+      "2023": {
+        "total": 34,
+        "approved": 28,
+        "rejected": 4,
+        "excluded": 2
+      },
+      "2024": {
+        "total": 33,
+        "approved": 20,
+        "rejected": 8,
+        "excluded": 5
+      },
+      "2025": {
+        "total": 22,
+        "approved": 12,
+        "rejected": 1,
+        "excluded": 9
+      },
+      "2026": {
+        "total": 6,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 6
+      }
+    },
+    "Wembley": {
+      "2016": {
+        "total": 56,
+        "approved": 36,
+        "rejected": 14,
+        "excluded": 6
+      },
+      "2017": {
+        "total": 57,
+        "approved": 42,
+        "rejected": 13,
+        "excluded": 2
+      },
+      "2018": {
+        "total": 57,
+        "approved": 38,
+        "rejected": 12,
+        "excluded": 7
+      },
+      "2019": {
+        "total": 52,
+        "approved": 39,
+        "rejected": 7,
+        "excluded": 6
+      },
+      "2020": {
+        "total": 65,
+        "approved": 43,
+        "rejected": 20,
+        "excluded": 2
+      },
+      "2021": {
+        "total": 78,
+        "approved": 52,
+        "rejected": 18,
+        "excluded": 8
+      },
+      "2022": {
+        "total": 45,
+        "approved": 34,
+        "rejected": 7,
+        "excluded": 4
+      },
+      "2023": {
+        "total": 59,
+        "approved": 42,
+        "rejected": 10,
+        "excluded": 7
+      },
+      "2024": {
+        "total": 26,
+        "approved": 21,
+        "rejected": 4,
+        "excluded": 1
+      },
+      "2025": {
+        "total": 29,
+        "approved": 21,
+        "rejected": 5,
+        "excluded": 3
+      },
+      "2026": {
+        "total": 4,
+        "approved": 2,
+        "rejected": 0,
+        "excluded": 2
+      }
+    },
+    "Harrow and Wealdstone": {
+      "2019": {
+        "total": 1,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 1
+      },
+      "2021": {
+        "total": 1,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 1
+      },
+      "2025": {
+        "total": 35,
+        "approved": 9,
+        "rejected": 4,
+        "excluded": 22
+      },
+      "2026": {
+        "total": 5,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 5
+      }
+    },
+    "Colindale/Burnt Oak": {
+      "2016": {
+        "total": 88,
+        "approved": 59,
+        "rejected": 22,
+        "excluded": 7
+      },
+      "2017": {
+        "total": 112,
+        "approved": 64,
+        "rejected": 42,
+        "excluded": 6
+      },
+      "2018": {
+        "total": 87,
+        "approved": 54,
+        "rejected": 30,
+        "excluded": 3
+      },
+      "2019": {
+        "total": 53,
+        "approved": 33,
+        "rejected": 14,
+        "excluded": 6
+      },
+      "2020": {
+        "total": 62,
+        "approved": 42,
+        "rejected": 15,
+        "excluded": 5
+      },
+      "2021": {
+        "total": 57,
+        "approved": 35,
+        "rejected": 16,
+        "excluded": 6
+      },
+      "2022": {
+        "total": 39,
+        "approved": 26,
+        "rejected": 8,
+        "excluded": 5
+      },
+      "2023": {
+        "total": 45,
+        "approved": 34,
+        "rejected": 9,
+        "excluded": 2
+      },
+      "2024": {
+        "total": 42,
+        "approved": 29,
+        "rejected": 7,
+        "excluded": 6
+      },
+      "2025": {
+        "total": 39,
+        "approved": 16,
+        "rejected": 6,
+        "excluded": 17
+      },
+      "2026": {
+        "total": 5,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 5
+      }
+    },
+    "Ilford": {
+      "2016": {
+        "total": 25,
+        "approved": 11,
+        "rejected": 8,
+        "excluded": 6
+      },
+      "2017": {
+        "total": 41,
+        "approved": 27,
+        "rejected": 7,
+        "excluded": 7
+      },
+      "2018": {
+        "total": 36,
+        "approved": 24,
+        "rejected": 9,
+        "excluded": 3
+      },
+      "2019": {
+        "total": 42,
+        "approved": 23,
+        "rejected": 12,
+        "excluded": 7
+      },
+      "2020": {
+        "total": 22,
+        "approved": 17,
+        "rejected": 4,
+        "excluded": 1
+      },
+      "2021": {
+        "total": 17,
+        "approved": 13,
+        "rejected": 2,
+        "excluded": 2
+      },
+      "2022": {
+        "total": 14,
+        "approved": 9,
+        "rejected": 3,
+        "excluded": 2
+      },
+      "2023": {
+        "total": 12,
+        "approved": 8,
+        "rejected": 2,
+        "excluded": 2
+      },
+      "2024": {
+        "total": 9,
+        "approved": 4,
+        "rejected": 5,
+        "excluded": 0
+      },
+      "2025": {
+        "total": 6,
+        "approved": 6,
+        "rejected": 0,
+        "excluded": 0
+      }
+    },
+    "London Riverside": {
+      "2016": {
+        "total": 340,
+        "approved": 235,
+        "rejected": 91,
+        "excluded": 14
+      },
+      "2017": {
+        "total": 352,
+        "approved": 248,
+        "rejected": 95,
+        "excluded": 9
+      },
+      "2018": {
+        "total": 393,
+        "approved": 286,
+        "rejected": 93,
+        "excluded": 14
+      },
+      "2019": {
+        "total": 303,
+        "approved": 219,
+        "rejected": 71,
+        "excluded": 13
+      },
+      "2020": {
+        "total": 235,
+        "approved": 167,
+        "rejected": 60,
+        "excluded": 8
+      },
+      "2021": {
+        "total": 218,
+        "approved": 149,
+        "rejected": 61,
+        "excluded": 8
+      },
+      "2022": {
+        "total": 201,
+        "approved": 146,
+        "rejected": 50,
+        "excluded": 5
+      },
+      "2023": {
+        "total": 174,
+        "approved": 101,
+        "rejected": 45,
+        "excluded": 28
+      },
+      "2024": {
+        "total": 153,
+        "approved": 109,
+        "rejected": 36,
+        "excluded": 8
+      },
+      "2025": {
+        "total": 249,
+        "approved": 187,
+        "rejected": 32,
+        "excluded": 30
+      },
+      "2026": {
+        "total": 19,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 18
+      }
+    },
+    "King's Cross": {
+      "2016": {
+        "total": 3,
+        "approved": 3,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2018": {
+        "total": 1,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 1
+      }
+    },
+    "Euston": {},
+    "Old Oak/Park Royal": {
+      "2016": {
+        "total": 63,
+        "approved": 50,
+        "rejected": 0,
+        "excluded": 13
+      },
+      "2017": {
+        "total": 61,
+        "approved": 58,
+        "rejected": 2,
+        "excluded": 1
+      },
+      "2018": {
+        "total": 78,
+        "approved": 75,
+        "rejected": 1,
+        "excluded": 2
+      },
+      "2019": {
+        "total": 62,
+        "approved": 57,
+        "rejected": 2,
+        "excluded": 3
+      },
+      "2020": {
+        "total": 59,
+        "approved": 53,
+        "rejected": 1,
+        "excluded": 5
+      },
+      "2021": {
+        "total": 87,
+        "approved": 74,
+        "rejected": 3,
+        "excluded": 10
+      },
+      "2022": {
+        "total": 53,
+        "approved": 47,
+        "rejected": 1,
+        "excluded": 5
+      },
+      "2023": {
+        "total": 98,
+        "approved": 84,
+        "rejected": 2,
+        "excluded": 12
+      },
+      "2024": {
+        "total": 86,
+        "approved": 81,
+        "rejected": 4,
+        "excluded": 1
+      },
+      "2025": {
+        "total": 155,
+        "approved": 116,
+        "rejected": 12,
+        "excluded": 27
+      },
+      "2026": {
+        "total": 23,
+        "approved": 13,
+        "rejected": 0,
+        "excluded": 10
+      }
+    },
+    "Brent Cross/Cricklewood": {
+      "2016": {
+        "total": 242,
+        "approved": 153,
+        "rejected": 71,
+        "excluded": 18
+      },
+      "2017": {
+        "total": 288,
+        "approved": 172,
+        "rejected": 84,
+        "excluded": 32
+      },
+      "2018": {
+        "total": 224,
+        "approved": 128,
+        "rejected": 81,
+        "excluded": 15
+      },
+      "2019": {
+        "total": 167,
+        "approved": 115,
+        "rejected": 39,
+        "excluded": 13
+      },
+      "2020": {
+        "total": 147,
+        "approved": 98,
+        "rejected": 29,
+        "excluded": 20
+      },
+      "2021": {
+        "total": 129,
+        "approved": 91,
+        "rejected": 25,
+        "excluded": 13
+      },
+      "2022": {
+        "total": 130,
+        "approved": 92,
+        "rejected": 28,
+        "excluded": 10
+      },
+      "2023": {
+        "total": 130,
+        "approved": 94,
+        "rejected": 24,
+        "excluded": 12
+      },
+      "2024": {
+        "total": 95,
+        "approved": 63,
+        "rejected": 21,
+        "excluded": 11
+      },
+      "2025": {
+        "total": 123,
+        "approved": 58,
+        "rejected": 18,
+        "excluded": 47
+      },
+      "2026": {
+        "total": 11,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 11
+      }
+    },
+    "Elephant and Castle": {
+      "2016": {
+        "total": 109,
+        "approved": 85,
+        "rejected": 12,
+        "excluded": 12
+      },
+      "2017": {
+        "total": 76,
+        "approved": 61,
+        "rejected": 8,
+        "excluded": 7
+      },
+      "2018": {
+        "total": 70,
+        "approved": 45,
+        "rejected": 14,
+        "excluded": 11
+      },
+      "2019": {
+        "total": 46,
+        "approved": 33,
+        "rejected": 2,
+        "excluded": 11
+      },
+      "2020": {
+        "total": 64,
+        "approved": 60,
+        "rejected": 1,
+        "excluded": 3
+      },
+      "2021": {
+        "total": 53,
+        "approved": 44,
+        "rejected": 3,
+        "excluded": 6
+      },
+      "2022": {
+        "total": 43,
+        "approved": 32,
+        "rejected": 4,
+        "excluded": 7
+      },
+      "2023": {
+        "total": 42,
+        "approved": 36,
+        "rejected": 4,
+        "excluded": 2
+      },
+      "2024": {
+        "total": 52,
+        "approved": 43,
+        "rejected": 1,
+        "excluded": 8
+      },
+      "2025": {
+        "total": 48,
+        "approved": 9,
+        "rejected": 0,
+        "excluded": 39
+      },
+      "2026": {
+        "total": 3,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 2
+      }
+    },
+    "London Bridge/Bankside": {
+      "2016": {
+        "total": 206,
+        "approved": 159,
+        "rejected": 25,
+        "excluded": 22
+      },
+      "2017": {
+        "total": 209,
+        "approved": 164,
+        "rejected": 20,
+        "excluded": 25
+      },
+      "2018": {
+        "total": 203,
+        "approved": 152,
+        "rejected": 18,
+        "excluded": 33
+      },
+      "2019": {
+        "total": 135,
+        "approved": 116,
+        "rejected": 6,
+        "excluded": 13
+      },
+      "2020": {
+        "total": 97,
+        "approved": 86,
+        "rejected": 3,
+        "excluded": 8
+      },
+      "2021": {
+        "total": 71,
+        "approved": 62,
+        "rejected": 4,
+        "excluded": 5
+      },
+      "2022": {
+        "total": 91,
+        "approved": 77,
+        "rejected": 4,
+        "excluded": 10
+      },
+      "2023": {
+        "total": 65,
+        "approved": 50,
+        "rejected": 4,
+        "excluded": 11
+      },
+      "2024": {
+        "total": 74,
+        "approved": 52,
+        "rejected": 8,
+        "excluded": 14
+      },
+      "2025": {
+        "total": 60,
+        "approved": 14,
+        "rejected": 0,
+        "excluded": 46
+      },
+      "2026": {
+        "total": 19,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 18
+      }
+    },
+    "Old Kent Road": {
+      "2016": {
+        "total": 101,
+        "approved": 72,
+        "rejected": 11,
+        "excluded": 18
+      },
+      "2017": {
+        "total": 99,
+        "approved": 81,
+        "rejected": 7,
+        "excluded": 11
+      },
+      "2018": {
+        "total": 133,
+        "approved": 98,
+        "rejected": 25,
+        "excluded": 10
+      },
+      "2019": {
+        "total": 123,
+        "approved": 98,
+        "rejected": 10,
+        "excluded": 15
+      },
+      "2020": {
+        "total": 114,
+        "approved": 96,
+        "rejected": 12,
+        "excluded": 6
+      },
+      "2021": {
+        "total": 148,
+        "approved": 124,
+        "rejected": 11,
+        "excluded": 13
+      },
+      "2022": {
+        "total": 209,
+        "approved": 177,
+        "rejected": 9,
+        "excluded": 23
+      },
+      "2023": {
+        "total": 119,
+        "approved": 88,
+        "rejected": 4,
+        "excluded": 27
+      },
+      "2024": {
+        "total": 128,
+        "approved": 91,
+        "rejected": 7,
+        "excluded": 30
+      },
+      "2025": {
+        "total": 138,
+        "approved": 46,
+        "rejected": 1,
+        "excluded": 91
+      },
+      "2026": {
+        "total": 15,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 15
+      }
+    },
+    "Waterloo": {
+      "2016": {
+        "total": 41,
+        "approved": 30,
+        "rejected": 8,
+        "excluded": 3
+      },
+      "2017": {
+        "total": 38,
+        "approved": 28,
+        "rejected": 7,
+        "excluded": 3
+      },
+      "2018": {
+        "total": 39,
+        "approved": 32,
+        "rejected": 6,
+        "excluded": 1
+      },
+      "2019": {
+        "total": 63,
+        "approved": 45,
+        "rejected": 12,
+        "excluded": 6
+      },
+      "2020": {
+        "total": 54,
+        "approved": 46,
+        "rejected": 5,
+        "excluded": 3
+      },
+      "2021": {
+        "total": 35,
+        "approved": 31,
+        "rejected": 1,
+        "excluded": 3
+      },
+      "2022": {
+        "total": 43,
+        "approved": 34,
+        "rejected": 7,
+        "excluded": 2
+      },
+      "2023": {
+        "total": 27,
+        "approved": 25,
+        "rejected": 1,
+        "excluded": 1
+      },
+      "2024": {
+        "total": 10,
+        "approved": 9,
+        "rejected": 1,
+        "excluded": 0
+      },
+      "2025": {
+        "total": 19,
+        "approved": 8,
+        "rejected": 1,
+        "excluded": 10
+      },
+      "2026": {
+        "total": 10,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 10
+      }
+    },
+    "Vauxhall Nine Elms Battersea": {
+      "2016": {
+        "total": 165,
+        "approved": 141,
+        "rejected": 9,
+        "excluded": 15
+      },
+      "2017": {
+        "total": 128,
+        "approved": 106,
+        "rejected": 12,
+        "excluded": 10
+      },
+      "2018": {
+        "total": 139,
+        "approved": 124,
+        "rejected": 10,
+        "excluded": 5
+      },
+      "2019": {
+        "total": 92,
+        "approved": 74,
+        "rejected": 5,
+        "excluded": 13
+      },
+      "2020": {
+        "total": 110,
+        "approved": 90,
+        "rejected": 12,
+        "excluded": 8
+      },
+      "2021": {
+        "total": 163,
+        "approved": 148,
+        "rejected": 4,
+        "excluded": 11
+      },
+      "2022": {
+        "total": 184,
+        "approved": 160,
+        "rejected": 12,
+        "excluded": 12
+      },
+      "2023": {
+        "total": 94,
+        "approved": 67,
+        "rejected": 10,
+        "excluded": 17
+      },
+      "2024": {
+        "total": 105,
+        "approved": 77,
+        "rejected": 6,
+        "excluded": 22
+      },
+      "2025": {
+        "total": 67,
+        "approved": 40,
+        "rejected": 8,
+        "excluded": 19
+      },
+      "2026": {
+        "total": 12,
+        "approved": 2,
+        "rejected": 0,
+        "excluded": 10
+      }
+    },
+    "Greenwich Peninsula": {
+      "2020": {
+        "total": 2,
+        "approved": 2,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2021": {
+        "total": 1,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2023": {
+        "total": 1,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2024": {
+        "total": 2,
+        "approved": 2,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2025": {
+        "total": 7,
+        "approved": 5,
+        "rejected": 0,
+        "excluded": 2
+      }
+    },
+    "Charlton Riverside": {
+      "2025": {
+        "total": 3,
+        "approved": 3,
+        "rejected": 0,
+        "excluded": 0
+      }
+    },
+    "New Cross/Lewisham/Catford": {
+      "2016": {
+        "total": 308,
+        "approved": 211,
+        "rejected": 74,
+        "excluded": 23
+      },
+      "2017": {
+        "total": 362,
+        "approved": 267,
+        "rejected": 71,
+        "excluded": 24
+      },
+      "2018": {
+        "total": 321,
+        "approved": 231,
+        "rejected": 76,
+        "excluded": 14
+      },
+      "2019": {
+        "total": 260,
+        "approved": 189,
+        "rejected": 49,
+        "excluded": 22
+      },
+      "2020": {
+        "total": 286,
+        "approved": 188,
+        "rejected": 75,
+        "excluded": 23
+      },
+      "2021": {
+        "total": 340,
+        "approved": 244,
+        "rejected": 79,
+        "excluded": 17
+      },
+      "2022": {
+        "total": 193,
+        "approved": 125,
+        "rejected": 54,
+        "excluded": 14
+      },
+      "2023": {
+        "total": 115,
+        "approved": 80,
+        "rejected": 22,
+        "excluded": 13
+      },
+      "2024": {
+        "total": 102,
+        "approved": 74,
+        "rejected": 21,
+        "excluded": 7
+      },
+      "2025": {
+        "total": 120,
+        "approved": 75,
+        "rejected": 31,
+        "excluded": 14
+      },
+      "2026": {
+        "total": 17,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 16
+      }
+    },
+    "Deptford Creek/Greenwich Riverside": {
+      "2016": {
+        "total": 37,
+        "approved": 27,
+        "rejected": 6,
+        "excluded": 4
+      },
+      "2017": {
+        "total": 44,
+        "approved": 30,
+        "rejected": 10,
+        "excluded": 4
+      },
+      "2018": {
+        "total": 21,
+        "approved": 18,
+        "rejected": 3,
+        "excluded": 0
+      },
+      "2019": {
+        "total": 30,
+        "approved": 24,
+        "rejected": 1,
+        "excluded": 5
+      },
+      "2020": {
+        "total": 75,
+        "approved": 60,
+        "rejected": 8,
+        "excluded": 7
+      },
+      "2021": {
+        "total": 40,
+        "approved": 32,
+        "rejected": 8,
+        "excluded": 0
+      },
+      "2022": {
+        "total": 23,
+        "approved": 12,
+        "rejected": 5,
+        "excluded": 6
+      },
+      "2023": {
+        "total": 6,
+        "approved": 4,
+        "rejected": 1,
+        "excluded": 1
+      },
+      "2024": {
+        "total": 7,
+        "approved": 6,
+        "rejected": 0,
+        "excluded": 1
+      },
+      "2025": {
+        "total": 10,
+        "approved": 3,
+        "rejected": 4,
+        "excluded": 3
+      },
+      "2026": {
+        "total": 3,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 2
+      }
+    },
+    "Canada Water": {
+      "2016": {
+        "total": 101,
+        "approved": 84,
+        "rejected": 10,
+        "excluded": 7
+      },
+      "2017": {
+        "total": 102,
+        "approved": 77,
+        "rejected": 10,
+        "excluded": 15
+      },
+      "2018": {
+        "total": 94,
+        "approved": 73,
+        "rejected": 8,
+        "excluded": 13
+      },
+      "2019": {
+        "total": 49,
+        "approved": 36,
+        "rejected": 5,
+        "excluded": 8
+      },
+      "2020": {
+        "total": 61,
+        "approved": 52,
+        "rejected": 5,
+        "excluded": 4
+      },
+      "2021": {
+        "total": 86,
+        "approved": 73,
+        "rejected": 4,
+        "excluded": 9
+      },
+      "2022": {
+        "total": 76,
+        "approved": 61,
+        "rejected": 12,
+        "excluded": 3
+      },
+      "2023": {
+        "total": 71,
+        "approved": 54,
+        "rejected": 4,
+        "excluded": 13
+      },
+      "2024": {
+        "total": 60,
+        "approved": 49,
+        "rejected": 3,
+        "excluded": 8
+      },
+      "2025": {
+        "total": 46,
+        "approved": 13,
+        "rejected": 0,
+        "excluded": 33
+      },
+      "2026": {
+        "total": 5,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 5
+      }
     },
     "Woolwich": {
-      "total": 9,
-      "approved": 5,
-      "rejected": 1,
-      "excluded": 3,
-      "decided": 6,
-      "approval_rate_pct": 83.3,
-      "approved_rejected_ratio": 5.0
+      "2025": {
+        "total": 8,
+        "approved": 5,
+        "rejected": 1,
+        "excluded": 2
+      },
+      "2026": {
+        "total": 1,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 1
+      }
     },
-    "Euston": {
-      "total": 0,
-      "approved": 0,
-      "rejected": 0,
-      "excluded": 0,
-      "decided": 0,
-      "approval_rate_pct": null,
-      "approved_rejected_ratio": null
+    "Victoria": {
+      "2023": {
+        "total": 1,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 0
+      }
     },
-    "Tottenham Court Road": {
-      "total": 0,
-      "approved": 0,
-      "rejected": 0,
-      "excluded": 0,
-      "decided": 0,
-      "approval_rate_pct": null,
-      "approved_rejected_ratio": null
+    "Earl's Court/West Kensington": {
+      "2018": {
+        "total": 1,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2021": {
+        "total": 5,
+        "approved": 5,
+        "rejected": 0,
+        "excluded": 0
+      },
+      "2025": {
+        "total": 2,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 2
+      },
+      "2026": {
+        "total": 2,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 2
+      }
+    },
+    "Southall": {
+      "2025": {
+        "total": 225,
+        "approved": 161,
+        "rejected": 33,
+        "excluded": 31
+      },
+      "2026": {
+        "total": 30,
+        "approved": 1,
+        "rejected": 1,
+        "excluded": 28
+      }
+    },
+    "Kensal Canalside": {
+      "2023": {
+        "total": 1,
+        "approved": 0,
+        "rejected": 1,
+        "excluded": 0
+      },
+      "2025": {
+        "total": 1,
+        "approved": 0,
+        "rejected": 1,
+        "excluded": 0
+      }
+    },
+    "White City": {
+      "2025": {
+        "total": 15,
+        "approved": 7,
+        "rejected": 1,
+        "excluded": 7
+      },
+      "2026": {
+        "total": 1,
+        "approved": 0,
+        "rejected": 0,
+        "excluded": 1
+      }
+    },
+    "Tottenham Court Road": {},
+    "Paddington": {
+      "2023": {
+        "total": 1,
+        "approved": 1,
+        "rejected": 0,
+        "excluded": 0
+      }
     }
   }
 }
