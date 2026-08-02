@@ -6,13 +6,13 @@ planning-application approval rate: approved (Permitted + Conditions) vs.
 rejected, for decided applications. A year-range filter lets you restrict
 this to applications submitted between 2016 and 2026.
 
-**[Open the map](site/london_planning_map.html)** — a single self-contained
-HTML file, no server required. All boundary data and approval statistics are
-precomputed and embedded in the page.
+**[Open the map](https://wwstorymode.github.io/oa-planning-map/)** — a single
+self-contained HTML file, no server required. All boundary data and approval
+statistics are precomputed and embedded in the page.
 
-Built for **House London #0 | Data Hackathon** (Newspeak House, 1 August
-2026) by Christine, Sharuga, and William —
-**[open the presentation deck](presentation/opportunity-by-the-numbers.html)**.
+Built for **[House London #0 | Data Hackathon](https://luma.com/160gn1gj)**
+(Newspeak House, 1 August 2026) by Christine, Sharuga, and William —
+**[open the presentation deck](https://wwstorymode.github.io/oa-planning-map/presentation/opportunity-by-the-numbers.html)**.
 
 ## How it works
 
@@ -141,12 +141,23 @@ with:
     --db ~/Downloads/housing_planning.sqlite
 ```
 
+## References
+
+- [House London #0 | Data Hackathon](https://luma.com/160gn1gj) — Newspeak
+  House, 1 August 2026, where this project was built.
+- [Opportunity Areas Map](https://apps.london.gov.uk/opportunity-areas/) —
+  the GLA's live Opportunity Area boundary map (visual only, no downloadable
+  postcode list — see "The Challenge" in the presentation deck).
+- [London Plan Opportunity Areas | London Datastore](https://data.london.gov.uk/dataset/london-plan-opportunity-areas-2jxjl)
+- [ONS Postcode Directory (February 2026) for the UK | Open Geography Portal](https://geoportal.statistics.gov.uk/datasets/3080229224424c9cb53c0b48f5a64d27/about)
+
 ## Data sources & licensing
 
-- Postcode geography: ONS Postcode Directory (ONSPD), Office for National
-  Statistics, Open Government Licence.
+- Postcode geography: [ONS Postcode Directory (ONSPD)](https://geoportal.statistics.gov.uk/datasets/3080229224424c9cb53c0b48f5a64d27/about),
+  Office for National Statistics, Open Government Licence.
 - Opportunity Area boundaries: Greater London Authority, via the live service
-  behind [apps.london.gov.uk/opportunity-areas](https://apps.london.gov.uk/opportunity-areas/),
+  behind [apps.london.gov.uk/opportunity-areas](https://apps.london.gov.uk/opportunity-areas/)
+  (see also the [London Datastore dataset page](https://data.london.gov.uk/dataset/london-plan-opportunity-areas-2jxjl)),
   Open Government Licence.
 - Borough boundaries: London Datastore "Statistical GIS Boundary Files for
   London" (`London_Borough_Excluding_MHW`), Open Government Licence.
